@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "en-US"
 # title                    : "Your Name / Site Title"
-title                    : "Madhav Kanda"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Madhav Kanda"
 description              : &description "Junior Undergraduate @ IITGN"
