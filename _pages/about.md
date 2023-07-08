@@ -8,9 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-## Introduction
-
-I am a **Junior Undergraduate** pursuing a degree in **Computer Science and Engineering** at the **Indian Institute of Technology, Gandhinagar**. My passion lies in the fascinating domains of **Probabilistic Machine Learning** and **Computer Vision**, specifically focusing on **Bayesian Inference**, **Generative Adversarial Networks** and **Active Learning**.
+I am a Junior Undergraduate pursuing a degree in Computer Science and Engineering at the Indian Institute of Technology, Gandhinagar. My passion lies in the fascinating domains of Probabilistic Machine Learning and Computer Vision, specifically focusing on Bayesian Inference, Generative Adversarial Networks and Active Learning.
 
 ## Research and Work Experience
 
