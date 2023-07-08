@@ -8,9 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-I am a Junior Undergraduate in the discipline of Computer Science and Engineering at Indian Institute of Technology, Gandhinagar. I am particularly interested in the fields of Probabilistic Machine Learning and Computer Vision, specifically in the areas of Bayesian Inference and Generative Adversarial Networks.
+## Introduction
 
-I was selected as an Indian Academy of Science Summer Research Fellow at the Indian Institute of Science (IISc.) Bengaluru, the leading research institute in India. Previously, I have also worked as a computer vision intern at Spyne Ai. 
+I am a **Junior Undergraduate** pursuing a degree in **Computer Science and Engineering** at the **Indian Institute of Technology, Gandhinagar**. My passion lies in the fascinating domains of **Probabilistic Machine Learning** and **Computer Vision**, specifically focusing on **Bayesian Inference**, **Generative Adversarial Networks** and **Active Learning**.
+
+## Research and Work Experience
+
+- **Indian Academy of Science Summer Research Fellow**, *Indian Institute of Science (IISc.), Bengaluru*
+  - Among the 68 students from the engineering stream out of the 40,000 applicants who applied for the IAS SRFP to get selected to work at IISc. Bangalore.
+  - I developed a Deep Convolutional Neural Network (DCNN) utilizing VGG13 as the base architecture to classify the Facial Emotion Recognition (FER) dataset. To further improve the results, I implemented various techniques that emphasized the edges in the images.
+
+- **Computer Vision Intern**, *Spyne Ai*
+  - As a computer vision intern at Spyne Ai, my primary focus was on Virtual Try On, where I successfully implemented Generative Adversarial Networks (GAN) models for research purposes.
+
 
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
