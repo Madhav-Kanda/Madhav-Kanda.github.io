@@ -12,6 +12,8 @@ I am a Junior Undergraduate pursuing a degree in Computer Science and Engineerin
 
 ## Research and Work Experience
 
+- **ASci summer intern**, *Aalto University, Finland*
+
 - **Indian Academy of Science Summer Research Fellow**, *Indian Institute of Science (IISc.), Bengaluru*
   - Among the 68 students from the engineering stream out of the 40,000 applicants who applied for the IAS SRFP to get selected to work at IISc. Bangalore.
   - I developed a Deep Convolutional Neural Network (DCNN) utilizing VGG13 as the base architecture to classify the Facial Emotion Recognition (FER) dataset. To further improve the results, I implemented various techniques that emphasized the edges in the images.
