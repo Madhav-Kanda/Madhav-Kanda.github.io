@@ -12,7 +12,7 @@ I am a Junior Undergraduate pursuing a degree in Computer Science and Engineerin
 
 ## Research and Work Experience
 
-- **ASci summer intern**, *Aalto University, Finland*
+- **ASci Summer Intern**, *Aalto University, Finland*
 
 - **Indian Academy of Science Summer Research Fellow**, *Indian Institute of Science (IISc.), Bengaluru*
   - Among the 68 students from the engineering stream out of the 40,000 applicants who applied for the IAS SRFP to get selected to work at IISc. Bangalore.
