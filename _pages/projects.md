@@ -19,3 +19,8 @@ A Powerful Compiler built from scratch with Python, incorporating advanced techn
 ### 3. [AutoDiff-Inference](https://github.com/Madhav-Kanda/AutoDiff-Inference)
 
 Implementation of Automatic Differentiation Variational Inference (ADVI) inspired Laplace approximation for constrained variables. The repository further contains the implementation of ADVI along with difference variants of Laplace approximation for comparison and research purposes.
+
+### 4. SpiroActive
+Spirometry plays a crucial role in detection of respiratory abnormalities. However, conventional clinical spirometry methods often entail considerable costs and practical limitations. To address these challenges, mobile and wearable spirometry technologies have emerged. In this research, we propose the use of active learning to mitigate the challenge associated with data collection and labelling. We used different acquisition functions along with different machine learning models to find the best performing strategy in our case.
+
+
