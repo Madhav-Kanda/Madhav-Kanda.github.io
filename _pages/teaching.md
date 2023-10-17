@@ -9,7 +9,7 @@ author_profile: true
    - Created slides, and interactive notebooks for comprehensive understanding of concepts related to probailistic machine learning.
    - Crafted thought provoking assignments, and provided mentorship to a group of students engaged in a project focused on Conditional Neural Adaptive Processes. 
 
-2. ## Bayesian Data Analysis, Aalto University, Spring 2023
+2. ## Bayesian Data Analysis, Aalto University, Spring 2023 [Online]
    Teaching Assistant
    - Facilitated interactive live sessions to address students' inquiries about assignments in Bayesian data analysis using R.
    - Supported students in transitioning to Docker by delivering detailed instructions, conducting informative sessions, and actively resolving doubts on Slack channels.
