@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-**Applying for MS in Computer Science (Fall '24)**
 
 
 I am a Senior Undergraduate pursuing a degree in Computer Science and Engineering at the Indian Institute of Technology, Gandhinagar. My passion lies in the fascinating domains of Probabilistic Machine Learning and Computer Vision, specifically focusing on Bayesian Inference, Generative Adversarial Networks and Active Learning.
