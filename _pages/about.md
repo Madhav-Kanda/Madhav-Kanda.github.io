@@ -15,18 +15,15 @@ I am a Senior Undergraduate pursuing a degree in Computer Science and Engineerin
 ## Research and Work Experience
 
 - **ASci Summer Intern**, *Aalto University, Finland*
-  - Among the 50 students from around the world out of 1600+ applicants who applied for ASci internship program to get selected to work at Aalto University. Working on Automatic Reparameterization for Bayesian Inference in Prof. Aki Vehtari's group. 
+  - Among the 50 students from around the world out of 1600+ applicants who applied for ASci internship program to get selected to work at Aalto University. I worked on Automatic Reparameterization for Bayesian Inference in Prof. Aki Vehtari's group. 
   -  Modified Hamiltonian Monte Carlo (HMC) to reduce the divergences during sampling by implementing methods for learning non-linear reparameterization alongside the existing linear ones during the warmup phase.
   - Proposed algorithm performed better then Variationally Inferred Parameterization in terms of effective sample size per gradient evaluations. We are expanding its application to more models and comparing it with alternative methods. 
  
 
 - **Indian Academy of Science Summer Research Fellow**, *Indian Institute of Science (IISc.), Bengaluru*
-  - Among the 68 students from the engineering stream out of the 40,000 applicants who applied for the IAS SRFP to get selected to work at IISc. Bangalore.
-  - Developed an algorithm to enhance the pronunciation of numbers based on their context in a Hindi sentence. Implemented approach using regular expressions to identify patterns in sentence & predict number's category.
-    
+  - Among the 68 students from the engineering stream out of the 40,000 applicants who applied for the IAS SRFP to get selected to work at IISc. Bangalore. I worked on enhancing text to speech system in Prof. A.G. Ramakrishnan's MILE lab.
+  - Developed an algorithm to enhance the pronunciation of numbers based on their context in a Hindi sentence. Implemented approach using regular expressions to identify patterns in sentence & predict number's category. 
   - Utilized seq2seq models to transliterate English words into Hindi. Subsequently, I enhanced the pronunciation of Indian proper nouns in English by applying phonetic transcription to these transliterated words.
-
-  - Devised a method to improve the pronunciation of Indian proper nouns in English. This approach involved utilizing a seq2seq model to transliterate Hindi words from English and subsequently applying phonetic transcription.
 
 
 - **Computer Vision Intern**, *Spyne Ai*
