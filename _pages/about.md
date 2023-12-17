@@ -15,15 +15,24 @@ I am a Senior Undergraduate pursuing a degree in Computer Science and Engineerin
 ## Research and Work Experience
 
 - **ASci Summer Intern**, *Aalto University, Finland*
-  - Among the 50 students from around the world out of 1600+ applicants who applied for ASci internship program to get selected to work at Aalto University.
-  - Working on Automatic Reparameterization for Bayesian Inference in Prof. Aki Vehtari's group. 
+  - Among the 50 students from around the world out of 1600+ applicants who applied for ASci internship program to get selected to work at Aalto University. Working on Automatic Reparameterization for Bayesian Inference in Prof. Aki Vehtari's group. 
+  -  Modified Hamiltonian Monte Carlo (HMC) to reduce the divergences during sampling by implementing methods for learning non-linear reparameterization alongside the existing linear ones during the warmup phase.
+  - Proposed algorithm performed better then Variationally Inferred Parameterization in terms of effective sample size per gradient evaluations. We are expanding its application to more models and comparing it with alternative methods. 
+ 
 
 - **Indian Academy of Science Summer Research Fellow**, *Indian Institute of Science (IISc.), Bengaluru*
   - Among the 68 students from the engineering stream out of the 40,000 applicants who applied for the IAS SRFP to get selected to work at IISc. Bangalore.
-  - I developed a Deep Convolutional Neural Network (DCNN) utilizing VGG13 as the base architecture to classify the Facial Emotion Recognition (FER) dataset. To further improve the results, I implemented various techniques that emphasized the edges in the images.
+  - Developed an algorithm to enhance the pronunciation of numbers based on their context in a Hindi sentence. Implemented approach using regular expressions to identify patterns in sentence & predict number's category.
+    
+  - Utilized seq2seq models to transliterate English words into Hindi. Subsequently, I enhanced the pronunciation of Indian proper nouns in English by applying phonetic transcription to these transliterated words.
+
+  - Devised a method to improve the pronunciation of Indian proper nouns in English. This approach involved utilizing a seq2seq model to transliterate Hindi words from English and subsequently applying phonetic transcription.
+
 
 - **Computer Vision Intern**, *Spyne Ai*
-  - As a computer vision intern at Spyne Ai, my primary focus was on Virtual Try On, where I successfully implemented Generative Adversarial Networks (GAN) models for research purposes.
+  - Performed an in-depth study of existing literature  for the integration of Generative Adversarial Networks (GAN), segmentation maps, and masking for commercial implementation of Virtual Try-On HD research paper.
+
+  - Acquired hands-on experience by implementing GAN models from scratch using PyTorch, ensuring a practical understanding of the intricacies in bringing the concepts to commercial viability.
 
 
 
