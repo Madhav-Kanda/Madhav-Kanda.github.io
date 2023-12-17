@@ -6,9 +6,9 @@ author_profile: true
 ---
 
 <!-- Project 1 -->
-### 1. [DeblurGAN](https://github.com/Madhav-Kanda/DeblurGAN)
+### 1. [Data Agnostic Blind Image Restoarion](https://github.com/Madhav-Kanda/DeblurGAN)
 
-PyTorch-based implementation of the research paper titled [Deep Generative Filter for Motion Deblurring](https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w43/Ramakrishnan_Deep_Generative_Filter_ICCV_2017_paper.pdf). Building upon the original model, we have integrated cutting-edge techniques to enhance its performance remarkably. The model is designed to take a pair of blurred and deblurred images as input during training and produces the deblurred image for the unseen image fed during testing. By leveraging PyTorch's capabilities, this implementation offers flexibility, making it suitable for various motion deblurring applications.
+Current deep learning methods exhibit poor performance in deblurring images from different domains than their training set. Our objective is to develop a method that excels in deblurring various types of images. To achieve this, I conducted an empirical study on diverse image restoration techniques. By integrating these techniques, I implemented Generative Adversarial Networks (GANs) and modified state-of-the-art methods to assess their adaptability across a range of datasets. Presently, I am engaged in developing a CLIP-based StyleGAN method.
 
 <!-- Project 2 -->
 ### 2. [Compiler](https://github.com/Madhav-Kanda/Compiler-Project)
@@ -18,9 +18,15 @@ A Powerful Compiler built from scratch with Python, incorporating advanced techn
 
 ### 3. [AutoDiff-Inference](https://github.com/Madhav-Kanda/AutoDiff-Inference)
 
-Implementation of Automatic Differentiation Variational Inference (ADVI) inspired Laplace approximation for constrained variables. The repository further contains the implementation of ADVI along with difference variants of Laplace approximation for comparison and research purposes.
+Implementation of Automatic Differentiation Variational Inference (ADVI) and Laplace Approximation with bijectors using Google's JAX framework. This work was done as a part of the development of [Bijax](https://github.com/patel-zeel/bijax), a bayesian inference library in JAX.
 
-### 4. SpiroActive
-Spirometry plays a crucial role in detection of respiratory abnormalities. However, conventional clinical spirometry methods often entail considerable costs and practical limitations. To address these challenges, mobile and wearable spirometry technologies have emerged. In this research, we propose the use of active learning to mitigate the challenge associated with data collection and labelling. We used different acquisition functions along with different machine learning models to find the best performing strategy in our case.
+### 4. Active Learning for Efficient Data Acquisition for Wearable Spirometry
+The aim of this project was to strategically select samples from ground-truth spirometers, effectively reducing the resource-intensive data collection necessary for constructing precise machine learning models for mobile spirometry. My role involved implementing active learning techniques in a multi-task setting. As a result, our approach delivered superior results, surpassing models trained on the entire dataset while utilizing just 48% of the available data. Preparing the manuscript for submission to *ACM Health*
 
+### 5. Towards Scalable Identification of Brick Kilns from Satellite Imagery with Active Learning
 
+Identifying illegally constructed brick kilns will help mitigate their environmental impact. Due to the sparse availability of Indian brick kailn data, we employed transfer learning and fine-tuned the models developed for Bangladesh data. Labeling brick kilns is time-consuming; thus, employing active learning we labeled data points where the model exhibited the highest uncertainty. With the trained model, we identified over 700 brick kilns in the Indo-Gangetic region and we are further expanding this approach for other regions in India
+
+### 6. [Reliable Parameteric Reparameterization](https://madhav-kanda.github.io/blogs/posts/2023-07-21-wnr.html)
+
+I worked on an approach to minimize the divergences encountered while performing Markov Chain Monte Carlo sampling from a posterior distribution. The proposed approach involved enhancing the HMC warmup phase by implementing methods for learning non-linear reparameterization alongside the existing linear ones. This method performed better than Variationally Inferred Parameterisation approach in terms of effective sample size per gradient evaluations. We are working on expanding it and comparing its performance to other methods like Neutra HMC.
