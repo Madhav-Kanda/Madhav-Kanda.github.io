@@ -84,7 +84,7 @@ analytics:
 author:
   # name             : "Your Sidebar Name"
   # name             : "Madhav Kanda"
-  avatar           : "profile.jpeg" #profile.jpeg
+  avatar           : "my_photo.jpg" #profile.jpeg
   # bio              : "Your biography for the left-hand sidebar"
   bio              : ""
   # location         : "Location"
