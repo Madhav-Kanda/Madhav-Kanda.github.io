@@ -4,7 +4,7 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
-1. ## Data Structures and Algorithms (CS225), University of Illinois Urbana Champaign, Fall 2024
+1. ## Data Structures and Algorithms (CS225), UIUC, Fall 2024
    Teaching Assistant
    - Conducted Lab sessions and office Hours to solve students' queries related to the homework problems.
    
