@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Hello! I am an incoming MS CS (Thesis Track) student at the University of Illinois Urbana-Champaign. I completed my Bachelor of Technology in Computer Science and Engineering with Honors from IIT Gandhinagar. I am passionate about Machine Learning, Computer Vision, and Probabilistic Programming.
+Hello! I am an MS CS (Thesis Track) student at the University of Illinois Urbana-Champaign. I completed my Bachelor of Technology in Computer Science and Engineering with Honors from IIT Gandhinagar. I am passionate about Machine Learning, Computer Vision, and Probabilistic Programming.
 
 In addition to working as a Computer Vision intern at Spyne.ai, I have gained hands-on experience at leading research labs at the Aalto University in Finland and the Indian Institute of Science in Bengaluru. Additionally, I have actively contributed to open-source projects such as NumPyro, pyprobml, and BDA3. My contributions to these projects have earned me acknowledgment in the preface of Dr. Kevin Murphy’s book "Probabilistic Machine Learning: Advanced Topics."
 
