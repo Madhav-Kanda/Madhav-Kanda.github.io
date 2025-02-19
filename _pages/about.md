@@ -99,7 +99,7 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
   <div style="display: flex; margin-bottom: 1em;">
       <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Aug 2023</div>
       <div>Mentioned as a contributor in Dr. Kevin Murphy‘s Probabilistic Machine Learning: Advanced Topics book</div>
-    </div>
+  </div>
 
   <!-- Single news item -->
   <div style="display: flex; margin-bottom: 1em;">
@@ -117,30 +117,28 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
     <div>Awarded Indian Academy of Sciences Summer Research Fellowship.</div>
   </div>
 
-
   <!-- Add more items as needed... -->
 
 </div>
 
 <div style="margin-top: 1em; text-align: right;">
-  <a href="#" id="toggle-news" onclick="toggleNews()" style="color: #007acc; text-decoration: none; font-weight: bold;">
+  <a href="#" id="toggle-news" onclick="toggleNews(event)" style="color: #007acc; text-decoration: none; font-weight: bold;">
     More News →
   </a>
 </div>
 
 <!-- Small JavaScript snippet for toggling the News container -->
 <script>
-function toggleNews() {
+function toggleNews(e) {
+  e.preventDefault();
   var container = document.getElementById('news-container');
   var link = document.getElementById('toggle-news');
   
-  // If currently collapsed (max-height = 300px), expand it
   if (container.style.maxHeight === '300px') {
-    container.style.maxHeight = '800px';   // or 'none' if you want no limit
+    container.style.maxHeight = '800px';  // or use 'none' for unlimited expansion
     container.style.overflowY = 'auto';
     link.textContent = 'Show Less ←';
   } else {
-    // Otherwise, collapse it back
     container.style.maxHeight = '300px';
     container.style.overflowY = 'hidden';
     link.textContent = 'More News →';
