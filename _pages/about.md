@@ -78,7 +78,12 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Feb 2024</div>
     <div>Received an offer for the Caltech SURF program from Prof. Tapio Schneider in the CliMA group.</div>
   </div>
-
+  
+  <div style="display: flex; margin-bottom: 1em;">
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Feb 2024</div>
+    <div>Among the two students nominated by IIT Gandhinagar for the prestigious Pre-Doctoral Research Assistant Program at Microsoft Research India.</div>
+  </div>
+  
   <!-- Single news item -->
   <div style="display: flex; margin-bottom: 1em;">
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Jan 2024</div>
