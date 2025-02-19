@@ -5,12 +5,38 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+<section class="publications-list">
 
-{% include base_path %}
+  <article class="publication-entry">
+    <h2>Towards Scalable Identification of Brick Kilns from Satellite Imagery with Active Learning</h2>
+    <p><strong>Authors:</strong> Madhav Kanda, Aditi Agarwal</p>
+    <p><strong>Conference/Journal:</strong> NeurIPS'23 RealML</p>
+    <p><strong>Year:</strong> 2023</p>
+    <p>
+      Air pollution is a major global issue, worsened by unregulated brick production. Traditional kiln detection is slow, but AI models help by reducing labeling costs. Using active learning, we identified 700+ kilns in India and deployed a web tool for automatic detection.
+    </p>
+    <p>
+      <a href="https://openreview.net/pdf?id=F6jSo0PIKy" target="_blank" rel="noopener noreferrer">
+        View Publication
+      </a>
+    </p>
+  </article>
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+  <article class="publication-entry">
+    <h2>SpiroActive: Active Learning for Efficient Data Acquisition for Spirometry</h2>
+    <p><strong>Authors:</strong> Ankita Jain, Madhav Kanda</p>
+    <p><strong>Conference/Journal:</strong> Arxiv</p>
+    <p><strong>Year:</strong> 2024</p>
+    <p>
+      Respiratory illnesses, especially COPD, are a major health burden, causing 3.23M deaths in 2019. Spirometry aids diagnosis but is costly and inaccessible. Wearable spirometry, enhanced by active learning, reduces data collection needs while maintaining model accuracy.
+    </p>
+    <p>
+      <a href="https://arxiv.org/pdf/2410.22950" target="_blank" rel="noopener noreferrer">
+        View Publication
+      </a>
+    </p>
+  </article>
+
+  <!-- Add additional publication entries as needed -->
+
+</section>
