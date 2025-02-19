@@ -56,10 +56,9 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
 ## News
 
 <!-- 
-  By default, show a smaller area (max-height: 300px) with hidden overflow.
-  On "More News" click, expand the area and enable scrollbar.
+  Fixed height news container with a scrollbar.
 -->
-<div id="news-container" style="max-height: 300px; overflow-y: hidden; transition: max-height 0.3s ease; margin-top: 1em; border: 1px solid #eee; padding: 1em;">
+<div id="news-container" style="max-height: 300px; overflow-y: auto; transition: max-height 0.3s ease; margin-top: 1em; border: 1px solid #eee; padding: 1em;">
 
   <!-- Single news item -->
   <div style="display: flex; margin-bottom: 1em;">
@@ -120,28 +119,3 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
   <!-- Add more items as needed... -->
 
 </div>
-
-<div style="margin-top: 1em; text-align: right;">
-  <a href="#" id="toggle-news" onclick="toggleNews(event)" style="color: #007acc; text-decoration: none; font-weight: bold;">
-    More News →
-  </a>
-</div>
-
-<!-- Small JavaScript snippet for toggling the News container -->
-<script>
-function toggleNews(e) {
-  e.preventDefault();
-  var container = document.getElementById('news-container');
-  var link = document.getElementById('toggle-news');
-  
-  if (container.style.maxHeight === '300px') {
-    container.style.maxHeight = '800px';  // or use 'none' for unlimited expansion
-    container.style.overflowY = 'auto';
-    link.textContent = 'Show Less ←';
-  } else {
-    container.style.maxHeight = '300px';
-    container.style.overflowY = 'hidden';
-    link.textContent = 'More News →';
-  }
-}
-</script>
