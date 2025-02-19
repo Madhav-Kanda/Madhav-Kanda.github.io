@@ -55,65 +55,68 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
 
 ## News
 
-<!-- Container with fixed or max height for vertical scrolling -->
-<div style="max-height: 300px; overflow-y: auto; margin-top: 1em;">
+<!-- 
+  By default, show a smaller area (max-height: 300px) with hidden overflow.
+  On "More News" click, expand the area and enable scrollbar.
+-->
+<div id="news-container" style="max-height: 300px; overflow-y: hidden; transition: max-height 0.3s ease; margin-top: 1em; border: 1px solid #eee; padding: 1em;">
 
   <!-- Single news item -->
   <div style="display: flex; margin-bottom: 1em;">
-    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">
-      Aug 2024
-    </div>
-    <div>
-      Excited to start my second chapter as a Fully Funded MS CS student at UIUC!
-    </div>
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Aug 2024</div>
+    <div>Excited to start my second chapter as a Fully Funded MS CS student at UIUC!</div>
   </div>
 
   <!-- Single news item -->
   <div style="display: flex; margin-bottom: 1em;">
-    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">
-      Jun 2024
-    </div>
-    <div>
-      Awarded the Institute Gold Medal at IIT Gandhinagar for Outstanding Performance.
-    </div>
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Jun 2024</div>
+    <div>Awarded the Institute Gold Medal at IIT Gandhinagar for Outstanding Performance.</div>
   </div>
 
   <!-- Single news item -->
   <div style="display: flex; margin-bottom: 1em;">
-    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">
-      Feb 2024
-    </div>
-    <div>
-      Received an offer for the Caltech Summer Undergraduate Research Fellow (SURF) program from Prof. Tapio Schneider in CliMA (Climate Modeling Alliance) group. 
-    </div>
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Feb 2024</div>
+    <div>Received an offer for the Caltech SURF program from Prof. Tapio Schneider in the CliMA group.</div>
   </div>
 
   <!-- Single news item -->
   <div style="display: flex; margin-bottom: 1em;">
-    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">
-      Jan 2024
-    </div>
-    <div>
-      Selected for Google Research Week 2024, offering a platform, led by top experts, to explore cutting-edge ML techniques.
-    </div>
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Jan 2024</div>
+    <div>Selected for Google Research Week 2024—exploring cutting-edge ML techniques with top experts.</div>
+  </div>
+
+  <!-- Single news item -->
+  <div style="display: flex; margin-bottom: 1em;">
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Mar 2023</div>
+    <div>Among the 50 applicants selected for the Aalto University research program out of 1,600+ applicants across 84 countries.</div>
   </div>
 
   <!-- Add more items as needed... -->
-   <div style="display: flex; margin-bottom: 1em;">
-    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">
-      March 2023
-    </div>
-    <div>
-      Among the 50 applicants selected for the research program at Aalto University from a pool of over 1,600+ applicants spanning 84 countries.
-    </div>
-  </div>
-
 
 </div>
 
-<!-- "More News" link if you have a dedicated news page -->
 <div style="margin-top: 1em; text-align: right;">
-  <a href="/news/" style="color: #007acc; text-decoration: none; font-weight: bold;">
+  <a href="#" id="toggle-news" onclick="toggleNews()" style="color: #007acc; text-decoration: none; font-weight: bold;">
     More News →
   </a>
 </div>
+
+<!-- Small JavaScript snippet for toggling the News container -->
+<script>
+function toggleNews() {
+  var container = document.getElementById('news-container');
+  var link = document.getElementById('toggle-news');
+  
+  // If currently collapsed (max-height = 300px), expand it
+  if (container.style.maxHeight === '300px') {
+    container.style.maxHeight = '800px';   // or 'none' if you want no limit
+    container.style.overflowY = 'auto';
+    link.textContent = 'Show Less ←';
+  } else {
+    // Otherwise, collapse it back
+    container.style.maxHeight = '300px';
+    container.style.overflowY = 'hidden';
+    link.textContent = 'More News →';
+  }
+}
+</script>
