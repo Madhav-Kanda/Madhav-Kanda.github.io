@@ -87,9 +87,31 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
 
   <!-- Single news item -->
   <div style="display: flex; margin-bottom: 1em;">
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Sep 2023</div>
+    <div>Selected for Amazon ML Summer School!</div>
+  </div>
+
+  <div style="display: flex; margin-bottom: 1em;">
+      <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Aug 2023</div>
+      <div>Mentioned as a contributor in Dr. Kevin Murphy‘s Probabilistic Machine Learning: Advanced Topics book</div>
+    </div>
+
+  <!-- Single news item -->
+  <div style="display: flex; margin-bottom: 1em;">
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Mar 2023</div>
     <div>Among the 50 applicants selected for the Aalto University research program out of 1,600+ applicants across 84 countries.</div>
   </div>
+
+  <div style="display: flex; margin-bottom: 1em;">
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Sep 2022</div>
+    <div>Awarded Academic Research Ranking 2 in the Computer Science and Engineering department at IIT Gandhinagar.</div>
+  </div>
+
+  <div style="display: flex; margin-bottom: 1em;">
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Apr 2022</div>
+    <div>Awarded Indian Academy of Sciences Summer Research Fellowship.</div>
+  </div>
+
 
   <!-- Add more items as needed... -->
 
