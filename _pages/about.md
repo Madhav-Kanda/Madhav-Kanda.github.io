@@ -95,10 +95,6 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
     <div>Selected for Amazon ML Summer School!</div>
   </div>
 
-  <div style="display: flex; margin-bottom: 1em;">
-      <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Aug 2023</div>
-      <div>Mentioned as a contributor in Dr. Kevin Murphy‘s Probabilistic Machine Learning: Advanced Topics book</div>
-  </div>
 
   <!-- Single news item -->
   <div style="display: flex; margin-bottom: 1em;">
@@ -109,6 +105,11 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
   <div style="display: flex; margin-bottom: 1em;">
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Sep 2022</div>
     <div>Awarded Academic Research Ranking 2 in the Computer Science and Engineering department at IIT Gandhinagar.</div>
+  </div>
+  
+  <div style="display: flex; margin-bottom: 1em;">
+      <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Aug 2022</div>
+      <div>Mentioned as a contributor in Dr. Kevin Murphy‘s Probabilistic Machine Learning: Advanced Topics book</div>
   </div>
 
   <div style="display: flex; margin-bottom: 1em;">
