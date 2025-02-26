@@ -11,8 +11,6 @@ redirect_from:
 
 ## My CV 📄
 
-You can view my CV directly below, or [click here to download it](https://raw.githubusercontent.com/Madhav-Kanda/Madhav-Kanda.github.io/master/assets/cv.pdf).
+You can view my CV directly below, or [click here to download it](https://Madhav-Kanda.github.io/assets/cv.pdf).
 
-<embed src="https://raw.githubusercontent.com/Madhav-Kanda/Madhav-Kanda.github.io/master/assets/cv.pdf" type="application/pdf" width="100%" height="600px" />
-
----
+<iframe src="https://Madhav-Kanda.github.io/assets/cv.pdf" width="100%" height="600px"></iframe>
