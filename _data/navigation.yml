@@ -11,12 +11,13 @@ main:
     
   # - title: "Projects"
   #   url: /projects/
-        
-  - title: "Blogs"
-    url: /blogs/
-    
+
   - title: "CV"
     url: /cv/
+  
+  - title: "Blogs"
+    url: /blogs/
+  
     
   # - title: "Guide"
   #   url: /markdown/
