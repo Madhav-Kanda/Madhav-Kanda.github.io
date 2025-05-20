@@ -50,7 +50,7 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
   </div>
 
   <div style="display: inline-block; vertical-align: top; margin: 0 1rem; min-width: 100px;">
-    <img src="../images/msr.png" alt="MSR Internship" style="width: 90px; height: 90px; object-fit: contain;">
+    <img src="../images/microsoft.png" alt="MSR Internship" style="width: 90px; height: 90px; object-fit: contain;">
     <p>MSR, Redmond<br><em>2025</em></p>
   </div>
 
