@@ -30,23 +30,28 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
   </div>
   
   <div style="display: inline-block; vertical-align: top; margin: 0 1rem; min-width: 100px;">
-    <img src="../images/spyne.jpg" alt="Spyne" style="width: 80px; height: 80px; object-fit: contain;">
+    <img src="../images/spyne.jpg" alt="Spyne Internship" style="width: 80px; height: 80px; object-fit: contain;">
     <p>Spyne.ai<br><em>2022</em></p>
   </div>
 
   <div style="display: inline-block; vertical-align: top; margin: 0 1rem; min-width: 100px;">
-    <img src="../images/iisc.png" alt="IISc" style="width: 80px; height: 80px; object-fit: contain;">
+    <img src="../images/iisc.png" alt="IISc Internship" style="width: 80px; height: 80px; object-fit: contain;">
     <p>Indian Institute of Science<br><em>2022</em></p>
   </div>
 
   <div style="display: inline-block; vertical-align: top; margin: 0 1rem; min-width: 100px;">
-    <img src="../images/aalto.png" alt="Aalto University" style="width: 80px; height: 80px; object-fit: contain;">
+    <img src="../images/aalto.png" alt="Aalto University Internship" style="width: 80px; height: 80px; object-fit: contain;">
     <p>Aalto University<br><em>2023</em></p>
   </div>
 
   <div style="display: inline-block; vertical-align: top; margin: 0 1rem; min-width: 100px;">
     <img src="../images/uiuc.jpg" alt="UIUC" style="width: 80px; height: 80px; object-fit: contain;">
     <p>UIUC<br><em>2024-2026</em></p>
+  </div>
+
+  <div style="display: inline-block; vertical-align: top; margin: 0 1rem; min-width: 100px;">
+    <img src="../images/msr.png" alt="MSR Internship" style="width: 80px; height: 80px; object-fit: contain;">
+    <p>UIUC<br><em>2025</em></p>
   </div>
 
 </div>
@@ -61,6 +66,11 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
 <div id="news-container" style="max-height: 300px; overflow-y: auto; transition: max-height 0.3s ease; margin-top: 1em; border: 1px solid #eee; padding: 1em;">
 
   <!-- Single news item -->
+  <div style="display: flex; margin-bottom: 1em;">
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">May 2025</div>
+    <div>Started my Research Internship at Microsoft Reseach, Redmond!</div>
+  </div>
+  
   <div style="display: flex; margin-bottom: 1em;">
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Aug 2024</div>
     <div>Excited to start my second chapter as a Fully Funded MS CS student at UIUC!</div>
