@@ -68,7 +68,7 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
   <!-- Single news item -->
   <div style="display: flex; margin-bottom: 1em;">
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">May 2025</div>
-    <div>Started my Research Internship at Microsoft Reseach, Redmond!</div>
+    <div>Started Research Internship at Microsoft Reseach, Redmond!</div>
   </div>
   
   <div style="display: flex; margin-bottom: 1em;">
