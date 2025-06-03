@@ -28,6 +28,17 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
     <img src="../images/iitgn.png" alt="IIT Gandhinagar" style="width: 80px; height: 80px; object-fit: contain;">
     <p>IIT Gandhinagar<br><em>2020-2024</em></p>
   </div>
+
+  <div style="display: inline-block; vertical-align: top; margin: 0 1rem; min-width: 100px;">
+    <img src="../images/uiuc.jpg" alt="UIUC" style="width: 80px; height: 80px; object-fit: contain;">
+    <p>UIUC<br><em>2024-2026</em></p>
+  </div>
+
+</div>
+
+## Internships
+
+<div style="white-space: nowrap; overflow-x: auto; text-align: center; flex-direction: row;">
   
   <div style="display: inline-block; vertical-align: top; margin: 0 1rem; min-width: 100px;">
     <img src="../images/spyne.jpg" alt="Spyne Internship" style="width: 80px; height: 80px; object-fit: contain;">
@@ -42,11 +53,6 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
   <div style="display: inline-block; vertical-align: top; margin: 0 1rem; min-width: 100px;">
     <img src="../images/aalto.png" alt="Aalto University Internship" style="width: 80px; height: 80px; object-fit: contain;">
     <p>Aalto University<br><em>2023</em></p>
-  </div>
-
-  <div style="display: inline-block; vertical-align: top; margin: 0 1rem; min-width: 100px;">
-    <img src="../images/uiuc.jpg" alt="UIUC" style="width: 80px; height: 80px; object-fit: contain;">
-    <p>UIUC<br><em>2024-2026</em></p>
   </div>
 
   <div style="display: inline-block; vertical-align: top; margin: 0 1rem; min-width: 100px;">
