@@ -152,7 +152,7 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
   </div>
   <div style="display: flex; margin-bottom: 1em;">
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Feb 2021</div>
-    <div>Secured **Second Place** out of eleven teams in Indusdev hackathon, a 42-hour long industrial hackathon held at IITGN</div>
+    <div>Secured Second Place out of eleven teams in Indusdev hackathon, a 42-hour long industrial hackathon held at IITGN</div>
   </div>
 
   <!-- Add more items as needed... -->
