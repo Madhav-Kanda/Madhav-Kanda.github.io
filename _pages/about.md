@@ -10,7 +10,7 @@ redirect_from:
 
 Hello! I am a fully funded M.S. Computer Science (Thesis Track) student at the University of Illinois Urbana-Champaign. My research interests lie in multimodal multi-agent systems, error-free LLM-driven code generation, and program repair using LLMs.
 
-I am currently working with [Prof. Sasa Misailovic](https://misailo.cs.illinois.edu/) on **enhancing the semantic accuracy of LLM-generated code through grammar-guided generation**. Additionally, as part of my CS598 project, I am working under the guidance of [Prof. Lingming Zhang](https://lingming.cs.illinois.edu/) on **automatic software debugging using small language models**. Previously, I collaborated with [Prof. Heng Ji](https://blender.cs.illinois.edu/hengji.html) and [Prof. Unnat Jain](https://unnat.github.io/) to design a **multi-agent framework** for complex VQA tasks—this work was recently submitted to ACL '25!
+My research lies at the intersection of **programming languages**, **formal methods**, and **machine learning**, with a focus on structured generation and reasoning in language models. My work explores grammar-constrained generation and verification techniques to improve the reliability and interpretability of AI systems. I have collaborated with academic institutions like **Aalto University** and **IISc Bangalore**, and contributed to applied research projects at **Microsoft Research** and **Spyne.AI**.
 
 I earned my BTech with Honours in Computer Science and Engineering from IIT Gandhinagar, where I conducted research under the guidance of [Prof. Nipun Batra](https://nipunbatra.github.io/) and [Prof. Shanmuganathan Raman](https://sites.google.com/site/shanmuganathanraman/) on probabilistic machine learning (and its applications) and generative adversarial networks, respectively.
 
@@ -66,6 +66,11 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
 <div id="news-container" style="max-height: 300px; overflow-y: auto; transition: max-height 0.3s ease; margin-top: 1em; border: 1px solid #eee; padding: 1em;">
 
   <!-- Single news item -->
+   <div style="display: flex; margin-bottom: 1em;">
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">May 2025</div>
+    <div>Selected for the Y Combinator's AI Startup School from among thousands of applicants.</div>
+  </div>
+  
   <div style="display: flex; margin-bottom: 1em;">
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">May 2025</div>
     <div>Started Research Internship at Microsoft Reseach, Redmond!</div>
@@ -107,6 +112,11 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
 
 
   <!-- Single news item -->
+  div style="display: flex; margin-bottom: 1em;">
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">May 2023</div>
+    <div>Started my summer research internship at Aalto University in Finland.</div>
+  </div>
+  
   <div style="display: flex; margin-bottom: 1em;">
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Mar 2023</div>
     <div>Among the 50 applicants selected for the Aalto University research program out of 1,600+ applicants across 84 countries.</div>
@@ -121,10 +131,22 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
       <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Aug 2022</div>
       <div>Mentioned as a contributor in Dr. Kevin Murphy‘s Probabilistic Machine Learning: Advanced Topics book</div>
   </div>
-
+  <div style="display: flex; margin-bottom: 1em;">
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">May 2022</div>
+    <div>Started my summer research internship at Indian Institute of Science, Bengaluru.</div>
+  </div>
   <div style="display: flex; margin-bottom: 1em;">
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Apr 2022</div>
     <div>Awarded Indian Academy of Sciences Summer Research Fellowship.</div>
+  </div>
+  
+  <div style="display: flex; margin-bottom: 1em;">
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Aug 2021</div>
+    <div>Awarded a branch change to the Computer Science and Engineering department for securing fourth rank among all BTech 2020 students.</div>
+  </div>
+  <div style="display: flex; margin-bottom: 1em;">
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Feb 2021</div>
+    <div>Secured **Second Place** out of eleven teams in Indusdev hackathon, a 42-hour long industrial hackathon held at IITGN</div>
   </div>
 
   <!-- Add more items as needed... -->
