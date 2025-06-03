@@ -22,7 +22,7 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
 
 ## Affiliations
 
-<div style="white-space: nowrap; overflow-x: auto; text-align: center; flex-direction: row;">
+<div style="white-space: nowrap; overflow-x: auto; flex-direction: row;">
 
   <div style="display: inline-block; vertical-align: top; margin: 0 1rem; min-width: 100px;">
     <img src="../images/iitgn.png" alt="IIT Gandhinagar" style="width: 80px; height: 80px; object-fit: contain;">
