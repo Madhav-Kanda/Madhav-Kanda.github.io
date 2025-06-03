@@ -112,7 +112,7 @@ I’m actively seeking internship opportunities for Summer 2025. If you believe 
 
 
   <!-- Single news item -->
-  div style="display: flex; margin-bottom: 1em;">
+  <div style="display: flex; margin-bottom: 1em;">
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">May 2023</div>
     <div>Started my summer research internship at Aalto University in Finland.</div>
   </div>
