@@ -37,17 +37,17 @@ This summer, I am in Seattle working with Sharad Agarwal, Rodrigo Fonseca, Alok 
 <div style="white-space: nowrap; overflow-x: auto; flex-direction: row;">
   
   <div style="display: inline-block; text-align: center; vertical-align: top; margin: 0 1rem; min-width: 100px;">
-    <img src="../images/spyne.jpg" alt="Spyne Internship" style="width: 80px; height: 80px; object-fit: contain;">
+    <img src="../images/spyne.jpg" alt="Spyne Internship" style="width: 90px; height: 90px; object-fit: contain;">
     <p>Spyne.ai<br><em>2022</em></p>
   </div>
 
   <div style="display: inline-block; text-align: center; vertical-align: top; margin: 0 1rem; min-width: 100px;">
-    <img src="../images/iisc.png" alt="IISc Internship" style="width: 80px; height: 80px; object-fit: contain;">
+    <img src="../images/iisc.png" alt="IISc Internship" style="width: 90px; height: 90px; object-fit: contain;">
     <p>Indian Institute of Science<br><em>2022</em></p>
   </div>
 
   <div style="display: inline-block; text-align: center; vertical-align: top; margin: 0 1rem; min-width: 100px;">
-    <img src="../images/aalto.png" alt="Aalto University Internship" style="width: 80px; height: 80px; object-fit: contain;">
+    <img src="../images/aalto.png" alt="Aalto University Internship" style="width: 90px; height: 90px; object-fit: contain;">
     <p>Aalto University<br><em>2023</em></p>
   </div>
 
