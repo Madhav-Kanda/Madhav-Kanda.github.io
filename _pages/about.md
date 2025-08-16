@@ -56,6 +56,11 @@ This summer, I am in Seattle working with Sharad Agarwal, Rodrigo Fonseca, Alok 
     <p>MSR, Redmond<br><em>2025</em></p>
   </div>
 
+  <div style="display: inline-block; text-align: center; vertical-align: top; margin: 0 1rem; min-width: 100px;">
+    <img src="../images/azure.jpeg" alt="Azure Research Internship" style="width: 90px; height: 90px; object-fit: contain;">
+    <p>Azure Research<br><em>2025</em></p>
+  </div>
+
 </div>
 
 ---
@@ -82,6 +87,7 @@ This summer, I am in Seattle working with Sharad Agarwal, Rodrigo Fonseca, Alok 
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Aug 2024</div>
     <div>Excited to start my second chapter as a Fully Funded MS CS student at UIUC!</div>
   </div>
+
 
   <!-- Single news item -->
   <div style="display: flex; margin-bottom: 1em;">
