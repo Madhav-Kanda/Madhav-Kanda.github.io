@@ -68,17 +68,17 @@ My research lies at the intersection of programming languages, formal methods, a
   
   <div style="display: inline-block; text-align: center; vertical-align: top; margin: 0 1rem; min-width: 100px;">
     <img src="../images/amazon.png" alt="Amazon ML Summer School" style="width: 90px; height: 90px; object-fit: contain;">
-    <p>Amazon ML Summer School<br><em>2023</em></p>
+    <p>Amazon ML <br>Summer School<br><em>2023</em></p>
   </div>
 
   <div style="display: inline-block; text-align: center; vertical-align: top; margin: 0 1rem; min-width: 100px;">
     <img src="../images/google.png" alt="Research Week with Google" style="width: 90px; height: 90px; object-fit: contain;">
-    <p>Research Week with Google<br><em>2024</em></p>
+    <p>Research Week <br>with Google<br><em>2024</em></p>
   </div>
 
   <div style="display: inline-block; text-align: center; vertical-align: top; margin: 0 1rem; min-width: 100px;">
     <img src="../images/ycombinator.png" alt="YC Ai Startup School" style="width: 90px; height: 90px; object-fit: contain;">
-    <p>YC Ai Startup School<br><em>2025</em></p>
+    <p>YC Ai <br>Startup School<br><em>2025</em></p>
   </div>
 
 </div>
