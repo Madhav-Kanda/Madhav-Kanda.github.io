@@ -60,6 +60,17 @@
     .query-video video{width:100%;display:block;aspect-ratio:1/1;object-fit:cover;}
     .video-caption{padding:20px;font-size:14px;color:#666;background:#fff;}
 
+    /* ---------- METHOD OVERVIEW DIAGRAM ---------- */
+    .method-overview{margin:80px 0;}
+    .method-overview h2{font-size:36px;font-weight:600;margin-bottom:30px;text-align:center;}
+    .diagram-card{background:#fff;border-radius:var(--rad);box-shadow:var(--shadow);padding:20px;}
+    .diagram-caption{margin-top:15px;color:#666;font-size:14px;text-align:center;}
+
+    /* ---------- QUERY STEPS (REPLACES VIDEOS) ---------- */
+    .query-steps{padding:20px;background:#fff;}
+    .query-steps ol{margin-left:18px;}
+    .query-steps li{margin:6px 0;line-height:1.5;}
+
     /* ---------- RESPONSIVE ---------- */
     @media(max-width:768px){
       h1{font-size:36px;}
@@ -73,39 +84,29 @@
 <body>
   <h1>Divide and Reason: Joint Image and Language Decomposition for Compositional Reasoning</h1>
   <div class="authors">
-    Madhav Kanda*¹, Dwip Dalal*¹, Zhenhailong Wang¹, Heng Ji¹, Unnat Jain²
+    Madhav Kanda†¹, Dwip Dalal†¹, Zhenhailong Wang¹, Heng Ji¹, Unnat Jain²
   </div>
   <div class="affiliations">
     ¹University of Illinois Urbana–Champaign&nbsp;&nbsp;²University of California, Irvine
   </div>
+  <div class="contact">† Equal contribution</div>
   <!-- <div class="contact">Correspondence to: dwip2@illinois.edu</div>
   <div class="conference">Under Review</div> -->
 
   <!-- ---------- ACTION BUTTONS ---------- -->
   <div class="button-row">
-    <a class="btn" href="paper.pdf">📄 Paper</a>
-    <a class="btn" href="https://github.com/Madhav-Kanda/Redi">💻 Code</a>
+    <a class="btn" href="#paper">📄 Paper</a>
+    <a class="btn" href="#code">💻 Code</a>
     <a class="btn" href="#results">📊 Results</a>
     <a class="btn" href="bibtex.txt">📚 BibTeX</a>
   </div>
 
-  <!-- ---------- VIDEO GALLERY ---------- -->
-  <section class="video-grid-section" id="videos">
-    <h2>Video Gallery</h2>
-    <div class="video-grid">
-      <!-- All videos inside videos_fixed (auto-generated list) -->
-      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/1526520f65bff202_78/output_runs/run_1/1526520f65bff202_78_warp_anim.mp4" type="video/mp4"></source></video></div>
-      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201462454_n508641/output_runs/run_0/201462454_n508641_warp_anim.mp4" type="video/mp4"></source></video></div>
-      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/20667979_n181355/output_runs/run_0/20667979_n181355_warp_anim.mp4" type="video/mp4"></source></video></div>
-      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201935992_n500209/output_runs/run_0/201935992_n500209_warp_anim.mp4" type="video/mp4"></source></video></div>
-      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201885221_n222297/output_runs/run_0/201885221_n222297_warp_anim.mp4" type="video/mp4"></source></video></div>
-      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201957086_n536256/output_runs/run_1/201957086_n536256_warp_anim.mp4" type="video/mp4"></source></video></div>
-      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201623664_n501609/output_runs/run_0/warp_anim2.mp4" type="video/mp4"></source></video></div>
-      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201492498_n9856/output_runs/run_0/warp_anim2.mp4" type="video/mp4"></source></video></div>
-      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201864508_n481655/output_runs/run_0/201864508_n481655_warp_anim.mp4" type="video/mp4"></source></video></div>
-      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201713529_n455563/output_runs/run_0/warp_anim2.mp4" type="video/mp4"></source></video></div>
-      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201952896_n525029/output_runs/run_0/201952896_n525029_warp_anim.mp4" type="video/mp4"></source></video></div>
-      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/warp_anim4.mp4" type="video/mp4"></source></video></div>
+  <!-- ---------- METHOD OVERVIEW (VISUALIZATION) ---------- -->
+  <section class="method-overview" id="overview">
+    <h2>Method Overview</h2>
+    <div class="diagram-card">
+      <img src="REDI.png" alt="Method overview diagram for Divide and Reason" style="width:100%;height:auto;" />
+      <!-- <div class="diagram-caption">Method overview (from paper).</div> -->
     </div>
   </section>
 
@@ -113,54 +114,78 @@
   <section class="abstract">
     <h2>TLDR</h2>
     <p>
-      MLLMs often miss small details and spatial relations in cluttered scenes, leading to errors in fine-grained perceptual grounding. We introduce AttWarp, a lightweight method that allocates more resolution to query-relevant content while compressing less informative areas, all while preserving global context. At test time, the approach uses an MLLM's cross-modal attention to perform rectilinear warping of the input image, reallocating spatial resolution toward regions the model deems important, without changing model weights or architecture. This attention-guided warping preserves all original image information but redistributes it non-uniformly, so small objects and subtle relationships become easier for the same model to read while the global layout remains intact. AttWarp consistently improves accuracy, strengthens compositional reasoning, and reduces hallucinations.
+      Compositional vision–language questions require reasoning over multiple entities and relations. We present Divide and Reason, a framework that jointly decomposes the image and the language into aligned, tractable subproblems. Given a question, our method derives a structured plan and iteratively grounds visual primitives (objects, attributes, relations) while refining the textual spans that guide each step. This joint image–language decomposition improves perceptual grounding, enables robust multi‑hop reasoning, and reduces spurious shortcuts—without changing underlying model architectures. We observe consistent gains in accuracy and faithfulness across diverse benchmarks.
   </section>
 
   <!-- ---------- QUERY‑AWARE EXAMPLES ---------- -->
   <section class="results-gallery" id="results">
-    <h2 style="text-align:center;font-size:36px;font-weight:600;margin-bottom:50px;">Query‑Aware Warping Results</h2>
-    <p style="text-align:center;font-size:18px;color:#666;margin-bottom:50px;">Each example shows how our method adaptively warps images based on the query, highlighting relevant regions while preserving spatial relationships.</p>
-    <div class="query-examples">
+    <h2 style="text-align:center;font-size:36px;font-weight:600;margin-bottom:50px;">Divide‑and‑Reason Results</h2>
+    <p style="text-align:center;font-size:18px;color:#666;margin-bottom:30px;">Each example illustrates how the approach decomposes a question into image and language components, grounding entities and relations step‑by‑step.</p>
+    <div class="diagram-card" style="margin-bottom:40px;">
+      <img src="Redi-qualitative.png" alt="Qualitative results for Divide and Reason" style="width:100%;height:auto;" />
+      <!-- <div class="diagram-caption">Qualitative results (from paper).</div> -->
+    </div>
+    <!-- <div class="query-examples">
       <!-- Example #1 -->
-      <div class="query-example">
+      <!-- <div class="query-example">
         <div class="query-text"><h3>Query:</h3>
-          <div class="example-query">“What is the alcohol content?”</div>
+          <div class="example-query">“What is the color of the object left of the striped mug?”</div>
         </div>
-        <div class="query-video"><video controls preload="metadata"><source src="videos_fixed/1526520f65bff202_78/output_runs/run_1/1526520f65bff202_78_warp_anim.mp4" type="video/mp4"></video></div>
-        <div class="video-caption">The warped view enlarges the ABV text region on the can.</div>
+        <div class="query-steps">
+          <ol>
+            <li>Ground entity: “striped mug”.</li>
+            <li>Apply relation: “left of”.</li>
+            <li>Classify attribute: color of target object.</li>
+          </ol>
+        </div>
+        <div class="video-caption">Decomposition: entity → relation → attribute classification.</div>
       </div>
       <!-- Example #2 -->
-      <div class="query-example">
+      <!-- <div class="query-example">
         <div class="query-text"><h3>Query:</h3>
-          <div class="example-query">“Does the bat look white?”</div>
+          <div class="example-query">“How many small metal objects are touching the red cube?”</div>
         </div>
-        <div class="query-video"><video controls preload="metadata"><source src="videos_fixed/201462454_n508641/output_runs/run_0/201462454_n508641_warp_anim.mp4" type="video/mp4"></video></div>
-        <div class="video-caption">Warping focuses on the bat region to reveal its true color.</div>
-      </div>
+        <div class="query-steps">
+          <ol>
+            <li>Ground entity: “red cube”.</li>
+            <li>Filter by attributes: small ∧ metal.</li>
+            <li>Apply relation: touching(red cube).</li>
+            <li>Aggregate: count.</li>
+          </ol>
+        </div>
+        <div class="video-caption">Decomposition: attributes → relation → counting.</div>
+      </div> -->
       <!-- Example #3 -->
-      <div class="query-example">
+      <!-- <div class="query-example">
         <div class="query-text"><h3>Query:</h3>
-          <div class="example-query">“Is the hat made of cloth?”</div>
+          <div class="example-query">“Is the fruit held by the person wearing glasses ripe?”</div>
         </div>
-        <div class="query-video"><video controls preload="metadata"><source src="videos_fixed/201492498_n9856/output_runs/run_0/warp_anim2.mp4" type="video/mp4"></video></div>
-        <div class="video-caption">The warped animation magnifies the hat texture for better material recognition.</div>
-      </div>
+        <div class="query-steps">
+          <ol>
+            <li>Ground entity: “person wearing glasses”.</li>
+            <li>Resolve relation: object held by the person.</li>
+            <li>Classify attribute: ripeness of the fruit.</li>
+          </ol>
+        </div>
+        <div class="video-caption">Decomposition: entity with attribute → relation → attribute classification.</div>
+      </div> -->
       <!-- Example #4 -->
-      <div class="query-example">
+      <!-- <div class="query-example">
         <div class="query-text"><h3>Query:</h3>
-          <div class="example-query">“Which color is the belt?”</div>
+          <div class="example-query">“Which animal is closest to the backpack?”</div>
         </div>
-        <div class="query-video"><video controls preload="metadata"><source src="videos_fixed/201739131_n485969/output_runs/run_0/201739131_n485969_warp_anim.mp4" type="video/mp4"></video></div>
-        <div class="video-caption">Our method highlights the belt area to disambiguate its color.</div>
-      </div>
-    </div>
+        <div class="query-steps">
+          <ol>
+            <li>Ground target: backpack.</li>
+            <li>Ground candidate set: animals.</li>
+            <li>Compute spatial proximity to select the closest.</li>
+          </ol>
+        </div>
+        <div class="video-caption">Decomposition: set grounding → spatial reasoning → selection.</div>
+      </div>  -->
+    <!-- </div>  -->
   </section>
 
-  <!-- ---------- BORDER‑ON‑FINISH SCRIPT ---------- -->
-  <script>
-    document.querySelectorAll('.video-item video').forEach(v=>{
-      v.addEventListener('ended',()=>v.closest('.video-item').classList.add('video-ended'));
-    });
-  </script>
+  
 </body>
 </html>
