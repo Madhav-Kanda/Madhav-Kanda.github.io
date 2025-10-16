@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divide and Reason: Joint Image and Language Decomposition for Compositional Reasoning</title>
+  <style>
+    /* ---------- LAYOUT ---------- */
+    :root {
+      --text: #333;
+      --accent: #4A90E2;
+      --bg-light: #f8f9fa;
+      --shadow: 0 4px 20px rgba(0,0,0,.08);
+      --rad: 12px;
+    }
+    * {box-sizing:border-box; margin:0; padding:0;}
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 60px 20px;
+      line-height: 1.6;
+      background:#fff;
+      color: var(--text);
+    }
+    h1{font-size:48px;font-weight:400;text-align:center;margin-bottom:40px;line-height:1.1;letter-spacing:-.5px;}
+    .authors, .affiliations, .contact, .conference{text-align:center;}
+    .authors{font-size:24px;color:var(--accent);line-height:1.4;margin-bottom:20px;}
+    .affiliations{font-size:18px;color:#666;margin-bottom:10px;}
+    .contact{font-size:16px;color:#888;margin-bottom:30px;}
+    .conference{font-size:20px;font-weight:500;margin-bottom:40px;}
+
+    /* ---------- BUTTONS ---------- */
+    .button-row{display:flex;justify-content:center;flex-wrap:wrap;gap:15px;margin-bottom:80px;}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 26px;background:#2d2d2d;color:#fff;border:none;border-radius:30px;text-decoration:none;font-size:16px;font-weight:500;transition:.2s;cursor:pointer;}
+    .btn:hover{background:#1a1a1a;transform:translateY(-1px);}
+
+    /* ---------- VIDEO GRID ---------- */
+    .video-grid-section{text-align:center;margin:80px 0;}
+    .video-grid-section h2{font-size:36px;font-weight:600;margin-bottom:50px;}
+    .video-grid{display:grid;gap:20px;max-width:1200px;margin:0 auto;
+      grid-template-columns:repeat(auto-fill,minmax(200px,1fr));}
+    .video-item{background:#fff;border-radius:var(--rad);overflow:hidden;box-shadow:var(--shadow);border:4px solid #ff4444;transition:.3s;aspect-ratio:1/1;}
+    .video-item.video-ended{border-color:#4CAF50;}
+    .video-item:hover{transform:translateY(-5px);}
+    .video-item video{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;}
+
+    /* ---------- ABSTRACT ---------- */
+    .abstract{background:var(--bg-light);padding:50px;border-radius:var(--rad);border-left:4px solid var(--accent);margin:80px 0;}
+    .abstract h2{font-size:28px;font-weight:600;margin-bottom:30px;}
+    .abstract p{font-size:18px;line-height:1.7;}
+
+    /* ---------- QUERY EXAMPLES ---------- */
+    .query-examples{display:grid;gap:30px;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));}
+    .query-example{background:#fff;border-radius:var(--rad);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:.3s;}
+    .query-example:hover{transform:translateY(-3px);}
+    .query-text{padding:25px;background:linear-gradient(135deg,#f8f9fa 0%,#e9ecef 100%);} 
+    .query-text h3{font-size:16px;font-weight:600;margin-bottom:10px;}
+    .example-query{background:#e3f2fd;padding:15px;border-radius:6px;border-left:3px solid var(--accent);font-style:italic;font-size:14px;}
+    .query-video video{width:100%;display:block;aspect-ratio:1/1;object-fit:cover;}
+    .video-caption{padding:20px;font-size:14px;color:#666;background:#fff;}
+
+    /* ---------- RESPONSIVE ---------- */
+    @media(max-width:768px){
+      h1{font-size:36px;}
+      .authors{font-size:20px;}
+      .button-row{flex-direction:column;align-items:center;}
+      .btn{width:250px;justify-content:center;}
+      .abstract{padding:30px;}
+    }
+  </style>
+</head>
+<body>
+  <h1>Divide and Reason: Joint Image and Language Decomposition for Compositional Reasoning</h1>
+  <div class="authors">
+    Madhav Kanda*¹, Dwip Dalal*¹, Zhenhailong Wang¹, Heng Ji¹, Unnat Jain²
+  </div>
+  <div class="affiliations">
+    ¹University of Illinois Urbana–Champaign&nbsp;&nbsp;²University of California, Irvine
+  </div>
+  <!-- <div class="contact">Correspondence to: dwip2@illinois.edu</div>
+  <div class="conference">Under Review</div> -->
+
+  <!-- ---------- ACTION BUTTONS ---------- -->
+  <div class="button-row">
+    <a class="btn" href="paper.pdf">📄 Paper</a>
+    <a class="btn" href="https://github.com/Madhav-Kanda/Redi">💻 Code</a>
+    <a class="btn" href="#results">📊 Results</a>
+    <a class="btn" href="bibtex.txt">📚 BibTeX</a>
+  </div>
+
+  <!-- ---------- VIDEO GALLERY ---------- -->
+  <section class="video-grid-section" id="videos">
+    <h2>Video Gallery</h2>
+    <div class="video-grid">
+      <!-- All videos inside videos_fixed (auto-generated list) -->
+      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/1526520f65bff202_78/output_runs/run_1/1526520f65bff202_78_warp_anim.mp4" type="video/mp4"></source></video></div>
+      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201462454_n508641/output_runs/run_0/201462454_n508641_warp_anim.mp4" type="video/mp4"></source></video></div>
+      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/20667979_n181355/output_runs/run_0/20667979_n181355_warp_anim.mp4" type="video/mp4"></source></video></div>
+      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201935992_n500209/output_runs/run_0/201935992_n500209_warp_anim.mp4" type="video/mp4"></source></video></div>
+      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201885221_n222297/output_runs/run_0/201885221_n222297_warp_anim.mp4" type="video/mp4"></source></video></div>
+      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201957086_n536256/output_runs/run_1/201957086_n536256_warp_anim.mp4" type="video/mp4"></source></video></div>
+      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201623664_n501609/output_runs/run_0/warp_anim2.mp4" type="video/mp4"></source></video></div>
+      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201492498_n9856/output_runs/run_0/warp_anim2.mp4" type="video/mp4"></source></video></div>
+      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201864508_n481655/output_runs/run_0/201864508_n481655_warp_anim.mp4" type="video/mp4"></source></video></div>
+      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201713529_n455563/output_runs/run_0/warp_anim2.mp4" type="video/mp4"></source></video></div>
+      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/201952896_n525029/output_runs/run_0/201952896_n525029_warp_anim.mp4" type="video/mp4"></source></video></div>
+      <div class="video-item"><video autoplay muted playsinline preload="auto"><source src="videos_fixed/warp_anim4.mp4" type="video/mp4"></source></video></div>
+    </div>
+  </section>
+
+  <!-- ---------- ABSTRACT ---------- -->
+  <section class="abstract">
+    <h2>TLDR</h2>
+    <p>
+      MLLMs often miss small details and spatial relations in cluttered scenes, leading to errors in fine-grained perceptual grounding. We introduce AttWarp, a lightweight method that allocates more resolution to query-relevant content while compressing less informative areas, all while preserving global context. At test time, the approach uses an MLLM's cross-modal attention to perform rectilinear warping of the input image, reallocating spatial resolution toward regions the model deems important, without changing model weights or architecture. This attention-guided warping preserves all original image information but redistributes it non-uniformly, so small objects and subtle relationships become easier for the same model to read while the global layout remains intact. AttWarp consistently improves accuracy, strengthens compositional reasoning, and reduces hallucinations.
+  </section>
+
+  <!-- ---------- QUERY‑AWARE EXAMPLES ---------- -->
+  <section class="results-gallery" id="results">
+    <h2 style="text-align:center;font-size:36px;font-weight:600;margin-bottom:50px;">Query‑Aware Warping Results</h2>
+    <p style="text-align:center;font-size:18px;color:#666;margin-bottom:50px;">Each example shows how our method adaptively warps images based on the query, highlighting relevant regions while preserving spatial relationships.</p>
+    <div class="query-examples">
+      <!-- Example #1 -->
+      <div class="query-example">
+        <div class="query-text"><h3>Query:</h3>
+          <div class="example-query">“What is the alcohol content?”</div>
+        </div>
+        <div class="query-video"><video controls preload="metadata"><source src="videos_fixed/1526520f65bff202_78/output_runs/run_1/1526520f65bff202_78_warp_anim.mp4" type="video/mp4"></video></div>
+        <div class="video-caption">The warped view enlarges the ABV text region on the can.</div>
+      </div>
+      <!-- Example #2 -->
+      <div class="query-example">
+        <div class="query-text"><h3>Query:</h3>
+          <div class="example-query">“Does the bat look white?”</div>
+        </div>
+        <div class="query-video"><video controls preload="metadata"><source src="videos_fixed/201462454_n508641/output_runs/run_0/201462454_n508641_warp_anim.mp4" type="video/mp4"></video></div>
+        <div class="video-caption">Warping focuses on the bat region to reveal its true color.</div>
+      </div>
+      <!-- Example #3 -->
+      <div class="query-example">
+        <div class="query-text"><h3>Query:</h3>
+          <div class="example-query">“Is the hat made of cloth?”</div>
+        </div>
+        <div class="query-video"><video controls preload="metadata"><source src="videos_fixed/201492498_n9856/output_runs/run_0/warp_anim2.mp4" type="video/mp4"></video></div>
+        <div class="video-caption">The warped animation magnifies the hat texture for better material recognition.</div>
+      </div>
+      <!-- Example #4 -->
+      <div class="query-example">
+        <div class="query-text"><h3>Query:</h3>
+          <div class="example-query">“Which color is the belt?”</div>
+        </div>
+        <div class="query-video"><video controls preload="metadata"><source src="videos_fixed/201739131_n485969/output_runs/run_0/201739131_n485969_warp_anim.mp4" type="video/mp4"></video></div>
+        <div class="video-caption">Our method highlights the belt area to disambiguate its color.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- BORDER‑ON‑FINISH SCRIPT ---------- -->
+  <script>
+    document.querySelectorAll('.video-item video').forEach(v=>{
+      v.addEventListener('ended',()=>v.closest('.video-item').classList.add('video-ended'));
+    });
+  </script>
+</body>
+</html>
