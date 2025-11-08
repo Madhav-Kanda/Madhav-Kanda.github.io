@@ -8,9 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am a fully funded M.S. Computer Science (Thesis Track) student at the University of Illinois Urbana-Champaign. I earned my BTech with Honours in Computer Science and Engineering from IIT Gandhinagar.
-
-My research lies at the intersection of probabilistic programming languages, formal methods, and machine learning, with a focus on structured generation and reasoning in language models. I have collaborated with academic institutions like **Aalto University** and **IISc Bangalore**, and contributed to applied research projects at **Microsoft Research** and **Spyne.AI**.
+Hello! I am a fully funded M.S. Computer Science (Thesis Track) student at the University of Illinois Urbana-Champaign. I earned my BTech with Honours in Computer Science and Engineering from IIT Gandhinagar. I have collaborated with academic institutions like **Aalto University** and **IISc Bangalore**, and contributed to applied research projects at **Microsoft Research** and startups like **Spyne.AI**.
 
 ---
 
