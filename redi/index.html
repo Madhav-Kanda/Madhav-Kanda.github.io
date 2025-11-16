@@ -71,6 +71,18 @@
     .query-steps ol{margin-left:18px;}
     .query-steps li{margin:6px 0;line-height:1.5;}
 
+    /* ---------- HIDE VIDEO UI CONTROLS ---------- */
+    video::-webkit-media-controls {
+      display: none !important;
+    }
+    video::-webkit-media-controls-enclosure {
+      display: none !important;
+    }
+    video::-webkit-media-controls-panel {
+      display: none !important;
+      opacity: 0 !important;
+    }
+
     /* ---------- RESPONSIVE ---------- */
     @media(max-width:768px){
       h1{font-size:36px;}
@@ -84,32 +96,29 @@
 <body>
   <h1>Divide and Reason: Joint Image and Language Decomposition for Compositional Reasoning</h1>
   <div class="authors">
-    Dwip Dalal†¹, Madhav Kanda†¹, Zhenhailong Wang¹, Heng Ji¹, Unnat Jain²
+    Dwip Dalal†¹, Madhav Kanda†¹, Zhenhailong Wang¹, Heng Ji¹, Unnat Jain²
   </div>
   <div class="affiliations">
-    ¹University of Illinois Urbana–Champaign&nbsp;&nbsp;²University of California, Irvine
+    ¹University of Illinois Urbana–Champaign&nbsp;&nbsp;²University of California, Irvine
   </div>
   <div class="contact">† Equal contribution</div>
-  <!-- <div class="contact">Correspondence to: dwip2@illinois.edu</div>
-  <div class="conference">Under Review</div> -->
 
   <!-- ---------- ACTION BUTTONS ---------- -->
   <div class="button-row">
-    <a class="btn" href="#paper">📄 Paper</a>
-    <a class="btn" href="#code">💻 Code</a>
-    <a class="btn" href="#results">📊 Results</a>
-    <a class="btn" href="#bibtex">📚 BibTeX</a>
+    <a class="btn" href="#paper">📄 Paper</a>
+    <a class="btn" href="#code">💻 Code</a>
+    <a class="btn" href="#results">📊 Results</a>
+    <a class="btn" href="#bibtex">📚 BibTeX</a>
   </div>
 
-  <!-- ---------- METHOD OVERVIEW (VISUALIZATION) ---------- -->
+  <!-- ---------- METHOD OVERVIEW (VIDEO) ---------- -->
 <section class="method-overview" id="overview">
   <h2>Method Overview</h2>
   <div class="diagram-card">
-    <video autoplay loop muted playsinline controls style="width:100%;height:auto;border-radius:12px;">
+    <video autoplay loop muted playsinline style="width:100%;height:auto;border-radius:12px;">
       <source src="Redi-main.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <!-- <div class="diagram-caption">Method overview (from paper).</div> -->
   </div>
 </section>
 
@@ -117,78 +126,16 @@
   <section class="abstract">
     <h2>TLDR</h2>
     <p>
-      Compositional vision–language questions require reasoning over multiple entities and relations. We present Divide and Reason, a framework that jointly decomposes the image and the language into aligned, tractable subproblems. Given a question, our method derives a structured plan and iteratively grounds visual primitives (objects, attributes, relations) while refining the textual spans that guide each step. This joint image–language decomposition improves perceptual grounding, enables robust multi‑hop reasoning, and reduces spurious shortcuts—without changing underlying model architectures. We observe consistent gains in accuracy and faithfulness across diverse benchmarks.
+      Compositional vision–language questions require reasoning over multiple entities and relations. We present Divide and Reason, a framework that jointly decomposes the image and the language into aligned, tractable subproblems. Given a question, our method derives a structured plan and iteratively grounds visual primitives (objects, attributes, relations) while refining the textual spans that guide each step. This joint image–language decomposition improves perceptual grounding, enables robust multi-hop reasoning, and reduces spurious shortcuts—without changing underlying model architectures. We observe consistent gains in accuracy and faithfulness across diverse benchmarks.
   </section>
 
-  <!-- ---------- QUERY‑AWARE EXAMPLES ---------- -->
+  <!-- ---------- RESULTS IMAGE ---------- -->
   <section class="results-gallery" id="results">
-    <h2 style="text-align:center;font-size:36px;font-weight:600;margin-bottom:50px;">Divide‑and‑Reason Results</h2>
-    <p style="text-align:center;font-size:18px;color:#666;margin-bottom:30px;">Each example illustrates how the approach decomposes a question into image and language components, grounding entities and relations step‑by‑step.</p>
+    <h2 style="text-align:center;font-size:36px;font-weight:600;margin-bottom:50px;">Divide-and-Reason Results</h2>
+    <p style="text-align:center;font-size:18px;color:#666;margin-bottom:30px;">Each example illustrates how the approach decomposes a question into image and language components, grounding entities and relations step-by-step.</p>
     <div class="diagram-card" style="margin-bottom:40px;">
       <img src="Redi-qualitative.png" alt="Qualitative results for Divide and Reason" style="width:100%;height:auto;" />
-      <!-- <div class="diagram-caption">Qualitative results (from paper).</div> -->
     </div>
-    <!-- <div class="query-examples">
-      <!-- Example #1 -->
-      <!-- <div class="query-example">
-        <div class="query-text"><h3>Query:</h3>
-          <div class="example-query">“What is the color of the object left of the striped mug?”</div>
-        </div>
-        <div class="query-steps">
-          <ol>
-            <li>Ground entity: “striped mug”.</li>
-            <li>Apply relation: “left of”.</li>
-            <li>Classify attribute: color of target object.</li>
-          </ol>
-        </div>
-        <div class="video-caption">Decomposition: entity → relation → attribute classification.</div>
-      </div>
-      <!-- Example #2 -->
-      <!-- <div class="query-example">
-        <div class="query-text"><h3>Query:</h3>
-          <div class="example-query">“How many small metal objects are touching the red cube?”</div>
-        </div>
-        <div class="query-steps">
-          <ol>
-            <li>Ground entity: “red cube”.</li>
-            <li>Filter by attributes: small ∧ metal.</li>
-            <li>Apply relation: touching(red cube).</li>
-            <li>Aggregate: count.</li>
-          </ol>
-        </div>
-        <div class="video-caption">Decomposition: attributes → relation → counting.</div>
-      </div> -->
-      <!-- Example #3 -->
-      <!-- <div class="query-example">
-        <div class="query-text"><h3>Query:</h3>
-          <div class="example-query">“Is the fruit held by the person wearing glasses ripe?”</div>
-        </div>
-        <div class="query-steps">
-          <ol>
-            <li>Ground entity: “person wearing glasses”.</li>
-            <li>Resolve relation: object held by the person.</li>
-            <li>Classify attribute: ripeness of the fruit.</li>
-          </ol>
-        </div>
-        <div class="video-caption">Decomposition: entity with attribute → relation → attribute classification.</div>
-      </div> -->
-      <!-- Example #4 -->
-      <!-- <div class="query-example">
-        <div class="query-text"><h3>Query:</h3>
-          <div class="example-query">“Which animal is closest to the backpack?”</div>
-        </div>
-        <div class="query-steps">
-          <ol>
-            <li>Ground target: backpack.</li>
-            <li>Ground candidate set: animals.</li>
-            <li>Compute spatial proximity to select the closest.</li>
-          </ol>
-        </div>
-        <div class="video-caption">Decomposition: set grounding → spatial reasoning → selection.</div>
-      </div>  -->
-    <!-- </div>  -->
   </section>
-
-  
 </body>
 </html>
