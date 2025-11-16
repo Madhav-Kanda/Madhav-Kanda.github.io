@@ -212,23 +212,23 @@
     .carousel-container {
       position: relative;
       max-width: 100%;
-      height: 620px; /* H1: fixed height full-bleed */
-      margin: 20px auto 60px;
+      margin: 20px auto 40px;
       overflow: hidden;
       border-radius: 12px;
       box-shadow: var(--shadow);
-      background:#000;
+      background:#fff;
     }
+    
     .carousel-slide {
       display: flex;
-      height: 100%;
-      transition: transform 0.5s ease-in-out;
+      transition: transform 0.5s ease;
     }
+    
     .carousel-slide img {
       width: 100%;
-      height: 100%;
-      object-fit: cover; /* full-bleed */
-      display:block;
+      height: auto;
+      object-fit: contain;
+      display: block;
     }
     .carousel-btn {
       position: absolute;
