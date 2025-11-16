@@ -24,76 +24,94 @@
       color: var(--text);
     }
     h1{font-size:48px;font-weight:400;text-align:center;margin-bottom:40px;line-height:1.1;letter-spacing:-.5px;}
-    .authors, .affiliations, .contact, .conference{text-align:center;}
+    .authors, .affiliations, .contact{text-align:center;}
     .authors{font-size:24px;color:var(--accent);line-height:1.4;margin-bottom:20px;}
     .affiliations{font-size:18px;color:#666;margin-bottom:10px;}
     .contact{font-size:16px;color:#888;margin-bottom:30px;}
-    .conference{font-size:20px;font-weight:500;margin-bottom:40px;}
 
     /* ---------- BUTTONS ---------- */
     .button-row{display:flex;justify-content:center;flex-wrap:wrap;gap:15px;margin-bottom:80px;}
     .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 26px;background:#2d2d2d;color:#fff;border:none;border-radius:30px;text-decoration:none;font-size:16px;font-weight:500;transition:.2s;cursor:pointer;}
     .btn:hover{background:#1a1a1a;transform:translateY(-1px);}
 
-    /* ---------- VIDEO GRID ---------- */
-    .video-grid-section{text-align:center;margin:80px 0;}
-    .video-grid-section h2{font-size:36px;font-weight:600;margin-bottom:50px;}
-    .video-grid{display:grid;gap:20px;max-width:1200px;margin:0 auto;
-      grid-template-columns:repeat(auto-fill,minmax(200px,1fr));}
-    .video-item{background:#fff;border-radius:var(--rad);overflow:hidden;box-shadow:var(--shadow);border:4px solid #ff4444;transition:.3s;aspect-ratio:1/1;}
-    .video-item.video-ended{border-color:#4CAF50;}
-    .video-item:hover{transform:translateY(-5px);}
-    .video-item video{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;}
+    /* ---------- VIDEO UI REMOVAL ---------- */
+    video::-webkit-media-controls,
+    video::-webkit-media-controls-enclosure,
+    video::-webkit-media-controls-panel {
+      display: none !important;
+      opacity: 0 !important;
+    }
 
     /* ---------- ABSTRACT ---------- */
     .abstract{background:var(--bg-light);padding:50px;border-radius:var(--rad);border-left:4px solid var(--accent);margin:80px 0;}
     .abstract h2{font-size:28px;font-weight:600;margin-bottom:30px;}
     .abstract p{font-size:18px;line-height:1.7;}
 
-    /* ---------- QUERY EXAMPLES ---------- */
-    .query-examples{display:grid;gap:30px;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));}
-    .query-example{background:#fff;border-radius:var(--rad);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:.3s;}
-    .query-example:hover{transform:translateY(-3px);}
-    .query-text{padding:25px;background:linear-gradient(135deg,#f8f9fa 0%,#e9ecef 100%);} 
-    .query-text h3{font-size:16px;font-weight:600;margin-bottom:10px;}
-    .example-query{background:#e3f2fd;padding:15px;border-radius:6px;border-left:3px solid var(--accent);font-style:italic;font-size:14px;}
-    .query-video video{width:100%;display:block;aspect-ratio:1/1;object-fit:cover;}
-    .video-caption{padding:20px;font-size:14px;color:#666;background:#fff;}
-
-    /* ---------- METHOD OVERVIEW DIAGRAM ---------- */
-    .method-overview{margin:80px 0;}
-    .method-overview h2{font-size:36px;font-weight:600;margin-bottom:30px;text-align:center;}
-    .diagram-card{background:#fff;border-radius:var(--rad);box-shadow:var(--shadow);padding:20px;}
-    .diagram-caption{margin-top:15px;color:#666;font-size:14px;text-align:center;}
-
-    /* ---------- QUERY STEPS (REPLACES VIDEOS) ---------- */
-    .query-steps{padding:20px;background:#fff;}
-    .query-steps ol{margin-left:18px;}
-    .query-steps li{margin:6px 0;line-height:1.5;}
-
-    /* ---------- HIDE VIDEO UI CONTROLS ---------- */
-    video::-webkit-media-controls {
-      display: none !important;
+    /* ---------- CAROUSEL ---------- */
+    .carousel-container {
+      position: relative;
+      max-width: 100%;
+      height: 620px;
+      margin: 20px auto 60px;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      background:#fff;
     }
-    video::-webkit-media-controls-enclosure {
-      display: none !important;
+    .carousel-slide {
+      display: flex;
+      height: 100%;
+      transition: transform 0.5s ease-in-out;
     }
-    video::-webkit-media-controls-panel {
-      display: none !important;
-      opacity: 0 !important;
+    .slide {
+      min-width: 100%;
+      height: 100%;
+      border: none;
     }
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.4);
+      color: #fff;
+      border: none;
+      font-size: 24px;
+      padding: 8px 12px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition:.2s;
+      z-index: 10;
+    }
+    #prevBtn { left: 10px; }
+    #nextBtn { right: 10px; }
+    .carousel-btn:hover { background: rgba(0,0,0,0.7); }
+    .carousel-dots {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    .dot {
+      width: 12px;
+      height: 12px;
+      background: #ccc;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .dot.active { background: var(--accent); }
 
-    /* ---------- RESPONSIVE ---------- */
     @media(max-width:768px){
       h1{font-size:36px;}
       .authors{font-size:20px;}
       .button-row{flex-direction:column;align-items:center;}
       .btn{width:250px;justify-content:center;}
       .abstract{padding:30px;}
+      .carousel-container { height: 480px; }
     }
   </style>
 </head>
+
 <body>
+
   <h1>Divide and Reason: Joint Image and Language Decomposition for Compositional Reasoning</h1>
   <div class="authors">
     Dwip Dalal†¹, Madhav Kanda†¹, Zhenhailong Wang¹, Heng Ji¹, Unnat Jain²
@@ -111,31 +129,84 @@
     <a class="btn" href="#bibtex">📚 BibTeX</a>
   </div>
 
-  <!-- ---------- METHOD OVERVIEW (VIDEO) ---------- -->
-<section class="method-overview" id="overview">
-  <h2>Method Overview</h2>
-  <div class="diagram-card">
-    <video autoplay loop muted playsinline style="width:100%;height:auto;border-radius:12px;">
-      <source src="Redi-main.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</section>
+  <!-- ---------- METHOD VIDEO ---------- -->
+  <section class="method-overview" id="overview">
+    <h2 style="font-size:36px;font-weight:600;text-align:center;margin-bottom:30px;">Method Overview</h2>
+    <div class="diagram-card">
+      <video autoplay loop muted playsinline style="width:100%;height:auto;border-radius:12px;">
+        <source src="Redi-main.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
 
   <!-- ---------- ABSTRACT ---------- -->
   <section class="abstract">
     <h2>TLDR</h2>
     <p>
-      Compositional vision–language questions require reasoning over multiple entities and relations. We present Divide and Reason, a framework that jointly decomposes the image and the language into aligned, tractable subproblems. Given a question, our method derives a structured plan and iteratively grounds visual primitives (objects, attributes, relations) while refining the textual spans that guide each step. This joint image–language decomposition improves perceptual grounding, enables robust multi-hop reasoning, and reduces spurious shortcuts—without changing underlying model architectures. We observe consistent gains in accuracy and faithfulness across diverse benchmarks.
+      Compositional vision–language questions require reasoning over multiple entities and relations. We present Divide and Reason[…]
+    </p>
   </section>
 
-  <!-- ---------- RESULTS IMAGE ---------- -->
-  <section class="results-gallery" id="results">
-    <h2 style="text-align:center;font-size:36px;font-weight:600;margin-bottom:50px;">Divide-and-Reason Results</h2>
-    <p style="text-align:center;font-size:18px;color:#666;margin-bottom:30px;">Each example illustrates how the approach decomposes a question into image and language components, grounding entities and relations step-by-step.</p>
-    <div class="diagram-card" style="margin-bottom:40px;">
-      <img src="Redi-qualitative.png" alt="Qualitative results for Divide and Reason" style="width:100%;height:auto;" />
+  <!-- ---------- RESULTS CAROUSEL ---------- -->
+  <section id="results">
+    <h2 style="text-align:center;font-size:36px;font-weight:600;margin-bottom:20px;">
+      Divide-and-Reason Results
+    </h2>
+    <p style="text-align:center;font-size:18px;color:#666;margin-bottom:20px;">
+      Browse four qualitative decomposition examples
+    </p>
+
+    <div class="carousel-container">
+      <button class="carousel-btn" id="prevBtn">&#10094;</button>
+      <div class="carousel-slide">
+        <embed src="qual-results/qual_1.pdf" type="application/pdf" class="slide" />
+        <embed src="qual-results/qual_2.pdf" type="application/pdf" class="slide" />
+        <embed src="qual-results/qual_3.pdf" type="application/pdf" class="slide" />
+        <embed src="qual-results/qual_4.pdf" type="application/pdf" class="slide" />
+      </div>
+      <button class="carousel-btn" id="nextBtn">&#10095;</button>
+    </div>
+
+    <div class="carousel-dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
     </div>
   </section>
+
+
+<script>
+let slideIndex = 0;
+const slides = document.querySelectorAll(".slide");
+const dots = document.querySelectorAll(".dot");
+const totalSlides = slides.length;
+
+function showSlide(index) {
+  if (index >= totalSlides) slideIndex = 0;
+  if (index < 0) slideIndex = totalSlides - 1;
+  document.querySelector(".carousel-slide").style.transform =
+    `translateX(${-slideIndex * 100}%)`;
+  dots.forEach(dot => dot.classList.remove("active"));
+  dots[slideIndex].classList.add("active");
+}
+
+document.getElementById("prevBtn").addEventListener("click", () => {
+  slideIndex--;
+  showSlide(slideIndex);
+});
+document.getElementById("nextBtn").addEventListener("click", () => {
+  slideIndex++;
+  showSlide(slideIndex);
+});
+dots.forEach((dot, i) => {
+  dot.addEventListener("click", () => {
+    slideIndex = i;
+    showSlide(slideIndex);
+  });
+});
+showSlide(slideIndex);
+</script>
+
 </body>
 </html>
