@@ -82,7 +82,7 @@
       transform:translateY(-1px);
     }
 
-    /* ---------- VIDEO GRID (unused for now, kept) ---------- */
+    /* ---------- VIDEO GRID (kept) ---------- */
     .video-grid-section{text-align:center;margin:80px 0;}
     .video-grid-section h2{font-size:36px;font-weight:600;margin-bottom:50px;}
     .video-grid{
@@ -128,7 +128,7 @@
       line-height:1.7;
     }
 
-    /* ---------- QUERY EXAMPLES (kept as in original) ---------- */
+    /* ---------- QUERY EXAMPLES (kept) ---------- */
     .query-examples{
       display:grid;
       gap:30px;
@@ -195,7 +195,7 @@
       text-align:center;
     }
 
-    /* ---------- QUERY STEPS (REPLACES VIDEOS) ---------- */
+    /* ---------- QUERY STEPS ---------- */
     .query-steps{padding:20px;background:#fff;}
     .query-steps ol{margin-left:18px;}
     .query-steps li{margin:6px 0;line-height:1.5;}
@@ -208,27 +208,27 @@
       opacity: 0 !important;
     }
 
-    /* ---------- RESULTS CAROUSEL ---------- */
+    /* ---------- RESULTS CAROUSEL (NO CROPPING) ---------- */
     .carousel-container {
       position: relative;
       max-width: 100%;
-      margin: 20px auto 40px;
+      margin: 20px auto 60px;
       overflow: hidden;
       border-radius: 12px;
       box-shadow: var(--shadow);
-      background:#fff;
+      background:#fff;          /* white behind image */
     }
-    
     .carousel-slide {
       display: flex;
-      transition: transform 0.5s ease;
+      transition: transform 0.5s ease-in-out;
     }
-    
     .carousel-slide img {
       width: 100%;
       height: auto;
-      object-fit: contain;
-      display: block;
+      max-height: 85vh;         /* always fits in viewport */
+      object-fit: contain;      /* NO CROPPING */
+      display:block;
+      margin: 0 auto;
     }
     .carousel-btn {
       position: absolute;
@@ -269,7 +269,7 @@
       .button-row{flex-direction:column;align-items:center;}
       .btn{width:250px;justify-content:center;}
       .abstract{padding:30px;}
-      .carousel-container { height: 480px; }
+      /* carousel is auto-height now, so no mobile override needed */
     }
   </style>
 </head>
@@ -282,8 +282,6 @@
     ¹University&nbsp;of&nbsp;Illinois&nbsp;Urbana–Champaign&nbsp;&nbsp;²University&nbsp;of&nbsp;California,&nbsp;Irvine
   </div>
   <div class="contact">† Equal contribution</div>
-  <!-- <div class="contact">Correspondence to: dwip2@illinois.edu</div>
-  <div class="conference">Under Review</div> -->
 
   <!-- ---------- ACTION BUTTONS ---------- -->
   <div class="button-row">
@@ -295,13 +293,12 @@
 
   <!-- ---------- METHOD OVERVIEW (VIDEO) ---------- -->
   <section class="method-overview" id="overview">
-    <!-- <h2>Method Overview</h2> -->
+    <h2>Method Overview</h2>
     <div class="diagram-card">
       <video autoplay loop muted playsinline style="width:100%;height:auto;border-radius:12px;">
         <source src="Redi-main.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <!-- <div class="diagram-caption">Method overview (from paper).</div> -->
     </div>
   </section>
 
@@ -316,7 +313,7 @@
   <!-- ---------- RESULTS (CAROUSEL) ---------- -->
   <section class="results-gallery" id="results">
     <h2 style="text-align:center;font-size:36px;font-weight:600;margin-bottom:50px;">
-      Qualitative&nbsp;Results
+      Divide-and-Reason&nbsp;Results
     </h2>
     <p style="text-align:center;font-size:18px;color:#666;margin-bottom:30px;">
       Each example illustrates how the approach decomposes a question into image and language components, grounding entities and relations step-by-step.
@@ -341,15 +338,7 @@
       <span class="dot"></span>
       <span class="dot"></span>
     </div>
-
-    <!-- (Your original commented-out query examples kept for later if needed)
-    <div class="query-examples">
-      ...
-    </div>
-    -->
   </section>
-
-  <!-- (Other sections like #paper, #code, #bibtex can go here) -->
 
   <!-- ---------- CAROUSEL SCRIPT (AUTO-ADVANCE) ---------- -->
   <script>
