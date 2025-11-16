@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Divide and Reason: Joint Image and Language Decomposition for Compositional Reasoning</title>
   <style>
-    /* ---------- LAYOUT ---------- */
     :root {
       --text: #333;
       --accent: #4A90E2;
@@ -23,18 +22,10 @@
       background:#fff;
       color: var(--text);
     }
-    h1{font-size:48px;font-weight:400;text-align:center;margin-bottom:40px;line-height:1.1;letter-spacing:-.5px;}
-    .authors, .affiliations, .contact{text-align:center;}
-    .authors{font-size:24px;color:var(--accent);line-height:1.4;margin-bottom:20px;}
-    .affiliations{font-size:18px;color:#666;margin-bottom:10px;}
-    .contact{font-size:16px;color:#888;margin-bottom:30px;}
 
-    /* ---------- BUTTONS ---------- */
-    .button-row{display:flex;justify-content:center;flex-wrap:wrap;gap:15px;margin-bottom:80px;}
-    .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 26px;background:#2d2d2d;color:#fff;border:none;border-radius:30px;text-decoration:none;font-size:16px;font-weight:500;transition:.2s;cursor:pointer;}
-    .btn:hover{background:#1a1a1a;transform:translateY(-1px);}
+    h1{font-size:48px;font-weight:400;text-align:center;margin-bottom:40px;line-height:1.1;}
 
-    /* ---------- VIDEO UI REMOVAL ---------- */
+    /* ---------- VIDEO: HIDE NATIVE CONTROLS ---------- */
     video::-webkit-media-controls,
     video::-webkit-media-controls-enclosure,
     video::-webkit-media-controls-panel {
@@ -42,17 +33,12 @@
       opacity: 0 !important;
     }
 
-    /* ---------- ABSTRACT ---------- */
-    .abstract{background:var(--bg-light);padding:50px;border-radius:var(--rad);border-left:4px solid var(--accent);margin:80px 0;}
-    .abstract h2{font-size:28px;font-weight:600;margin-bottom:30px;}
-    .abstract p{font-size:18px;line-height:1.7;}
-
     /* ---------- CAROUSEL ---------- */
     .carousel-container {
       position: relative;
       max-width: 100%;
       height: 620px;
-      margin: 20px auto 60px;
+      margin: 30px auto 60px;
       overflow: hidden;
       border-radius: 12px;
       box-shadow: var(--shadow);
@@ -63,11 +49,14 @@
       height: 100%;
       transition: transform 0.5s ease-in-out;
     }
-    .slide {
-      min-width: 100%;
+    .carousel-slide img {
+      width: 100%;
       height: 100%;
-      border: none;
+      object-fit: contain;
+      background:white;
+      padding: 10px;
     }
+
     .carousel-btn {
       position: absolute;
       top: 50%;
@@ -85,10 +74,12 @@
     #prevBtn { left: 10px; }
     #nextBtn { right: 10px; }
     .carousel-btn:hover { background: rgba(0,0,0,0.7); }
+
     .carousel-dots {
       display: flex;
       justify-content: center;
       gap: 10px;
+      margin-top: 10px;
     }
     .dot {
       width: 12px;
@@ -101,10 +92,6 @@
 
     @media(max-width:768px){
       h1{font-size:36px;}
-      .authors{font-size:20px;}
-      .button-row{flex-direction:column;align-items:center;}
-      .btn{width:250px;justify-content:center;}
-      .abstract{padding:30px;}
       .carousel-container { height: 480px; }
     }
   </style>
@@ -112,58 +99,35 @@
 
 <body>
 
-  <h1>Divide and Reason: Joint Image and Language Decomposition for Compositional Reasoning</h1>
-  <div class="authors">
-    Dwip Dalal†¹, Madhav Kanda†¹, Zhenhailong Wang¹, Heng Ji¹, Unnat Jain²
-  </div>
-  <div class="affiliations">
-    ¹University of Illinois Urbana–Champaign&nbsp;&nbsp;²University of California, Irvine
-  </div>
-  <div class="contact">† Equal contribution</div>
+  <h1>Divide and Reason: Joint Image and Language Decomposition</h1>
 
-  <!-- ---------- ACTION BUTTONS ---------- -->
-  <div class="button-row">
-    <a class="btn" href="#paper">📄 Paper</a>
-    <a class="btn" href="#code">💻 Code</a>
-    <a class="btn" href="#results">📊 Results</a>
-    <a class="btn" href="#bibtex">📚 BibTeX</a>
-  </div>
-
-  <!-- ---------- METHOD VIDEO ---------- -->
-  <section class="method-overview" id="overview">
-    <h2 style="font-size:36px;font-weight:600;text-align:center;margin-bottom:30px;">Method Overview</h2>
-    <div class="diagram-card">
-      <video autoplay loop muted playsinline style="width:100%;height:auto;border-radius:12px;">
-        <source src="Redi-main.mp4" type="video/mp4">
-      </video>
-    </div>
+  <!-- ------------ METHOD VIDEO SECTION ----------- -->
+  <section>
+    <h2 style="text-align:center;font-size:36px;margin-bottom:30px;">Method Overview</h2>
+    <video autoplay loop muted playsinline style="width:100%;height:auto;border-radius:12px;">
+      <source src="Redi-main.mp4" type="video/mp4">
+    </video>
   </section>
 
-  <!-- ---------- ABSTRACT ---------- -->
-  <section class="abstract">
-    <h2>TLDR</h2>
-    <p>
-      REDI, a novel framework that jointly decomposes both images and questions into fine-grained visual sub-domains—segmentation, material, depth, and color—while generating corresponding sub-questions. REDI employs an orchestrator agent that coordinates specialized worker agents, each proficient in a specific visual sub-domain, and aggregates their responses via adaptive meta-reasoning. This bilevel decomposition not only mitigates error propagation but also improves performance over chain-of-thought and visual programming baselines, achieving robust reasoning across both open- and closed-source MLLMs.
-    </p>
-  </section>
-
-  <!-- ---------- RESULTS CAROUSEL ---------- -->
+  <!-- ------------ RESULTS CAROUSEL (IMAGE VERSION) ----------- -->
   <section id="results">
-    <h2 style="text-align:center;font-size:36px;font-weight:600;margin-bottom:20px;">
-      Divide-and-Reason Results
+    <h2 style="text-align:center;font-size:36px;font-weight:600;margin:50px 0 20px;">
+      Qualitative Results
     </h2>
     <p style="text-align:center;font-size:18px;color:#666;margin-bottom:20px;">
-      Browse four qualitative decomposition examples
+      Each example shows how our method adapts to different question, and answer pair for appropriately answering it.
     </p>
 
     <div class="carousel-container">
       <button class="carousel-btn" id="prevBtn">&#10094;</button>
-      <div class="carousel-slide">
-        <embed src="qual-results/qual_1.pdf" type="application/pdf" class="slide" />
-        <embed src="qual-results/qual_2.pdf" type="application/pdf" class="slide" />
-        <embed src="qual-results/qual_3.pdf" type="application/pdf" class="slide" />
-        <embed src="qual-results/qual_4.pdf" type="application/pdf" class="slide" />
+
+      <div class="carousel-slide" id="carouselSlide">
+        <img src="qual-results/qual_1.png" class="slide" />
+        <img src="qual-results/qual_2.png" class="slide" />
+        <img src="qual-results/qual_3.png" class="slide" />
+        <img src="qual-results/qual_4.png" class="slide" />
       </div>
+
       <button class="carousel-btn" id="nextBtn">&#10095;</button>
     </div>
 
@@ -176,36 +140,39 @@
   </section>
 
 
+<!-- ------------ CAROUSEL SCRIPT (AUTO-ADVANCE) ----------- -->
 <script>
 let slideIndex = 0;
 const slides = document.querySelectorAll(".slide");
 const dots = document.querySelectorAll(".dot");
 const totalSlides = slides.length;
+const slideTrack = document.getElementById("carouselSlide");
 
-function showSlide(index) {
-  if (index >= totalSlides) slideIndex = 0;
-  if (index < 0) slideIndex = totalSlides - 1;
-  document.querySelector(".carousel-slide").style.transform =
-    `translateX(${-slideIndex * 100}%)`;
+function showSlide(i) {
+  slideIndex = (i + totalSlides) % totalSlides;
+  slideTrack.style.transform = `translateX(${-slideIndex * 100}%)`;
+
   dots.forEach(dot => dot.classList.remove("active"));
   dots[slideIndex].classList.add("active");
 }
 
 document.getElementById("prevBtn").addEventListener("click", () => {
-  slideIndex--;
-  showSlide(slideIndex);
+  showSlide(slideIndex - 1);
 });
 document.getElementById("nextBtn").addEventListener("click", () => {
-  slideIndex++;
-  showSlide(slideIndex);
+  showSlide(slideIndex + 1);
 });
+
 dots.forEach((dot, i) => {
-  dot.addEventListener("click", () => {
-    slideIndex = i;
-    showSlide(slideIndex);
-  });
+  dot.addEventListener("click", () => showSlide(i));
 });
-showSlide(slideIndex);
+
+/* ----- AUTO-ADVANCE EVERY 6 SECONDS ----- */
+setInterval(() => {
+  showSlide(slideIndex + 1);
+}, 6000);
+
+showSlide(0);
 </script>
 
 </body>
