@@ -7,45 +7,66 @@ author_profile: true
 
 <section class="publications-list">
 
- <article class="publication-entry">
-    <h2>REFINESTAT: Efficient Exploration for Probabilistic Program Synthesis</h2>
-    <p><strong>Authors:</strong> Madhav Kanda, Shubham Ugare, Sasa Misailovic</p>
-    <p>
-    Probabilistic programming offers a powerful framework for modeling uncertainty, yet statistical model discovery in this domain entails navigating an immense search space under strict domain-specific constraints. When small language models are tasked with generating probabilistic programs, they frequently produce outputs that suffer from both syntactic, and semantic errors, such as flawed inference constructs. Motivated by probabilistic programmers’ domain expertise and debugging strategies, we introduce REFINESTAT, a language model–driven framework that enforces semantic constraints ensuring synthesized programs contain valid distributions, well-formed parameters, and then applies diagnostic-aware refinement by resampling prior or likelihood components whenever reliability checks fail. We evaluate REFINESTAT on multiple probabilistic-programming code-generation tasks using smaller language models (SLMs) and find that it produces programs that are both syntactically sound and statistically reliable, often matching or surpassing those from closed-source large language models (e.g., OpenAI o3).
-    </p>
-    <p>
-      <a href="https://arxiv.org/pdf/2509.01082" target="_blank" rel="noopener noreferrer">
-        View Publication
-      </a>
-    </p>
-  </article>
+<!-- 1. RefineStat -->
+<article class="publication-entry">
+  <h2>
+    <strong>1. RefineStat: Efficient Exploration for Probabilistic Program Synthesis.</strong>
+    <a href="https://arxiv.org/pdf/2509.01082" target="_blank" rel="noopener noreferrer">🔗</a>
+  </h2>
+  <p><strong>Madhav Kanda</strong>, Shubham Ugare, Sasa Misailovic.</p>
+  <p><em>Under review at ICLR 2026.</em></p>
+</article>
 
-  <article class="publication-entry">
-    <h2>Towards Scalable Identification of Brick Kilns from Satellite Imagery with Active Learning</h2>
-    <p><strong>Authors:</strong> Madhav Kanda, Aditi Agarwal, Nipun Batra</p>
-    <p>
-      Air pollution is a major global issue, worsened by unregulated brick production. Traditional kiln detection is slow, but AI models help by reducing labeling costs. Using active learning, we identified 700+ kilns in India and deployed a web tool for automatic detection.
-    </p>
-    <p>
-      <a href="https://openreview.net/pdf?id=F6jSo0PIKy" target="_blank" rel="noopener noreferrer">
-        View Publication
-      </a>
-    </p>
-  </article>
+<!-- 2. Constructive Distortion -->
+<article class="publication-entry">
+  <h2>
+    <strong>2. Constructive Distortion: Attention-Guided Image Warping for Multimodal LLMs.</strong>
+    <a href="https://dwipddalal.github.io/Attwarp/" target="_blank" rel="noopener noreferrer">🔗</a>
+  </h2>
+  <p>Dwip Dalal, Gautam Vashishtha, <strong>Madhav Kanda</strong>, Svetlana Lazebnik, Heng Ji, Unnat Jain.</p>
+  <p><em>Under review at ICLR 2026.</em></p>
+</article>
 
-  <article class="publication-entry">
-    <h2>SpiroActive: Active Learning for Efficient Data Acquisition for Spirometry</h2>
-    <p><strong>Authors:</strong> Ankita Jain, Madhav Kanda, Nipun Batra</p>
-    <p>
-      Respiratory illnesses, especially COPD, are a major health burden, causing 3.23M deaths in 2019. Spirometry aids diagnosis but is costly and inaccessible. Wearable spirometry, enhanced by active learning, reduces data collection needs while maintaining model accuracy.
-    </p>
-    <p>
-      <a href="https://arxiv.org/pdf/2410.22950" target="_blank" rel="noopener noreferrer">
-        View Publication
-      </a>
-    </p>
-  </article>
+<!-- 3. Divide and Reason -->
+<article class="publication-entry">
+  <h2>
+    <strong>3. Divide and Reason: Joint Image and Language Decomposition for Compositional Reasoning.</strong>
+    <a href="https://madhav-kanda.github.io/redi/" target="_blank" rel="noopener noreferrer">🔗</a>
+  </h2>
+  <p><strong>Madhav Kanda*</strong>, Dwip Dalal*, Zhenhailong Wang, Heng Ji, Unnat Jain.</p>
+  <p><em>Under review at EACL 2026.</em></p>
+</article>
 
-  <!-- Add additional publication entries as needed -->
+<!-- 4. Grammar-Constrained LLM Generation -->
+<article class="publication-entry">
+  <h2>
+    <strong>4. Grammar-Constrained LLM Generation for Reliable and Efficient Probabilistic Program Synthesis.</strong>
+    <a href="#" target="_blank" rel="noopener noreferrer">🔗</a>
+  </h2>
+  <p><strong>Madhav Kanda</strong>, Shubham Ugare, Sasa Misailovic.</p>
+  <p><em>Workshop on Languages for Inference (LAFI), POPL 2026.</em></p>
+</article>
+
+<!-- 5. Brick Kilns -->
+<article class="publication-entry">
+  <h2>
+    <strong>5. Towards Scalable Identification of Brick Kilns from Satellite Imagery with Active Learning.</strong>
+    <a href="https://openreview.net/pdf?id=F6jSo0PIKy" target="_blank" rel="noopener noreferrer">🔗</a>
+  </h2>
+  <p>Aditi Agarwal*, Suraj Jaiswal*, <strong>Madhav Kanda*</strong>, Nipun Batra.</p>
+  <p><em>NeurIPS 2023 RealML Workshop.</em></p>
+</article>
+
+<!-- 6. SpiroActive -->
+<article class="publication-entry">
+  <h2>
+    <strong>6. SpiroActive: Active Learning for Efficient Data Acquisition for Spirometry.</strong>
+    <a href="https://arxiv.org/pdf/2410.22950" target="_blank" rel="noopener noreferrer">🔗</a>
+  </h2>
+  <p>Ankita Kumari Jain, Nitish Sharma, <strong>Madhav Kanda</strong>, Nipun Batra.</p>
+  <p><em>arXiv preprint, 2024.</em></p>
+</article>
+
+<p><em>(* denotes equal contribution)</em></p>
 
 </section>
