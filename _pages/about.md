@@ -92,6 +92,16 @@ Hello! I am a fully funded M.S. Computer Science (Thesis Track) student at the U
 
   <!-- Single news item -->
    <div style="display: flex; margin-bottom: 1em;">
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Jan 2026</div>
+    <div>[EACL 2026] Paper acccepted at EACL Findings: [Compositional Reasoning via Joint Image and Language Decomposition](https://2026.eacl.org/program/findings-accepted/).
+</div>
+  </div>
+  <div style="display: flex; margin-bottom: 1em;">
+    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Nov 2025</div>
+    <div>[POPL 2026] Paper accepted at LAFI: [Grammar-Constrained LLM Generation for Reliable and Efficient Probabilistic Program Synthesis](https://popl26.sigplan.org/details/lafi-2026-papers/1/Grammar-Constrained-LLM-Generation-for-Reliable-and-Efficient-Probabilistic-Program-S)</div>
+  </div>
+  
+   <div style="display: flex; margin-bottom: 1em;">
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">May 2025</div>
     <div>Selected for the Y Combinator's AI Startup School from among thousands of applicants.</div>
   </div>
