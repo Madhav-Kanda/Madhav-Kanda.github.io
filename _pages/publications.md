@@ -30,11 +30,11 @@ author_profile: true
 <!-- 3. Divide and Reason -->
 <article class="publication-entry">
   <h2>
-    <strong>3. Divide and Reason: Joint Image and Language Decomposition for Compositional Reasoning.</strong>
+    <strong>3. Compositional Reasoning via Joint Image and Language Decomposition.</strong>
     <a href="https://madhav-kanda.github.io/redi/" target="_blank" rel="noopener noreferrer">🔗</a>
   </h2>
   <p><strong>Madhav Kanda*</strong>, Dwip Dalal*, Zhenhailong Wang, Heng Ji, Unnat Jain.</p>
-  <p><em>Under review at EACL 2026.</em></p>
+  <p><em>EACL 2026.</em></p>
 </article>
 
 <!-- 4. Grammar-Constrained LLM Generation -->
