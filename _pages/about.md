@@ -91,30 +91,40 @@ Hello! I am a fully funded M.S. Computer Science (Thesis Track) student at the U
 <div id="news-container" style="max-height: 300px; overflow-y: auto; transition: max-height 0.3s ease; margin-top: 1em; border: 1px solid #eee; padding: 1em;">
 
   <!-- Single news item -->
-  <div style="display: flex; margin-bottom: 1em;">
-    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Jan 2026</div>
-    <div>
-      <strong>EACL 2026</strong> Paper accepted at EACL Findings:
-      <a href="https://2026.eacl.org/program/findings-accepted/"
-         target="_blank"
-         rel="noopener noreferrer">
-        Compositional Reasoning via Joint Image and Language Decomposition
-      </a>
-    </div>
+<div style="display: flex; gap: 1rem; margin-bottom: 1em; align-items: baseline;">
+  <div style="flex: 0 0 80px; font-weight: 600; color: #555;">
+    Jan 2026
   </div>
+  <div style="line-height: 1.4;">
+    <strong>EACL 2026</strong>
+    <span style="color: #555;"> — Paper accepted at EACL Findings:</span>
+    <a href="https://2026.eacl.org/program/findings-accepted/"
+       target="_blank"
+       rel="noopener noreferrer"
+       style="color: #4aa3c7; text-decoration: none;">
+      Compositional Reasoning via Joint Image and Language Decomposition
+    </a>
+  </div>
+</div>
+
 
   
-  <div style="display: flex; margin-bottom: 1em;">
-    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Nov 2025</div>
-    <div>
-      <strong>POPL 2026</strong> Paper accepted at LAFI:
-      <a href="https://popl26.sigplan.org/details/lafi-2026-papers/1/Grammar-Constrained-LLM-Generation-for-Reliable-and-Efficient-Probabilistic-Program-S"
-         target="_blank"
-         rel="noopener noreferrer">
-        Grammar-Constrained LLM Generation for Reliable and Efficient Probabilistic Program Synthesis
-      </a>
-    </div>
+<div style="display: flex; gap: 1rem; margin-bottom: 1em; align-items: baseline;">
+  <div style="flex: 0 0 80px; font-weight: 600; color: #555;">
+    Nov 2025
   </div>
+  <div style="line-height: 1.4;">
+    <strong>POPL 2026</strong>
+    <span style="color: #555;"> — Paper accepted at LAFI:</span>
+    <a href="https://popl26.sigplan.org/details/lafi-2026-papers/1/Grammar-Constrained-LLM-Generation-for-Reliable-and-Efficient-Probabilistic-Program-S"
+       target="_blank"
+       rel="noopener noreferrer"
+       style="color: #4aa3c7; text-decoration: none;">
+      Grammar-Constrained LLM Generation for Reliable and Efficient Probabilistic Program Synthesis
+    </a>
+  </div>
+</div>
+
   
    <div style="display: flex; margin-bottom: 1em;">
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">May 2025</div>
