@@ -165,6 +165,21 @@ Hello! I am a fully funded M.S. Computer Science (Thesis Track) student at the U
     <div>Selected for Google Research Week 2024—exploring cutting-edge ML techniques with top experts.</div>
   </div>
 
+<div style="display: flex; gap: 1rem; margin-bottom: 1em; align-items: baseline;">
+  <div style="flex: 0 0 80px; font-weight: 600; color: #555;">
+    Dec 2023
+  </div>
+  <div style="line-height: 1.4;">
+    <strong>NeurIPS 2023</strong>
+    <span style="color: #555;"> — Paper accepted at RealML:</span>
+    <a href="https://openreview.net/forum?id=F6jSo0PIKy"
+       target="_blank"
+       rel="noopener noreferrer"
+       style="color: #4aa3c7; text-decoration: none;">
+      Towards Scalable Identification of Brick Kilns from Satellite Imagery with Active Learning
+    </a>
+  </div>
+</div>
   <!-- Single news item -->
   <div style="display: flex; margin-bottom: 1em;">
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">Sep 2023</div>
