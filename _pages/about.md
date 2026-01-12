@@ -171,7 +171,7 @@ Hello! I am a fully funded M.S. Computer Science (Thesis Track) student at the U
   </div>
   <div style="line-height: 1.4;">
     <strong>NeurIPS 2023</strong>
-    <span style="color: #555;"> — Paper accepted at RealML:</span>
+    <span style="color: #555;"> — Paper accepted at ReALML:</span>
     <a href="https://openreview.net/forum?id=F6jSo0PIKy"
        target="_blank"
        rel="noopener noreferrer"
