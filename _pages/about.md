@@ -99,7 +99,7 @@ Hello! I am a fully funded M.S. Computer Science (Thesis Track) student at the U
     <div style="line-height: 1.4;">
       <strong>POPL 2026</strong>
       <span style="color: #555;">
-        — Presented a tutorial on <em>syntactically and semantically constraining LLM generation</em>, and presented a paper at the LAFI workshop (<em>Rennes, France</em>).
+        — Presented a tutorial on <em>constraining LLM generation syntactically and semantically</em>, and a LAFI workshop paper (<em>Rennes, France</em>).
       </span>
     </div>
   </div>
