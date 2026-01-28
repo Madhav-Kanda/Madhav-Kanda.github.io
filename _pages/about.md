@@ -89,7 +89,7 @@ Hello! I am a fully funded M.S. Computer Science (Thesis Track) student at the U
   Fixed height news container with a scrollbar.
 -->
 
-<div style="display: flex; gap: 1rem; margin-bottom: 1em; align-items: baseline;">
+<!-- <div style="display: flex; gap: 1rem; margin-bottom: 1em; align-items: baseline;">
   <div style="flex: 0 0 80px; font-weight: 600; color: #555;">
     Jan 2026
   </div>
@@ -119,7 +119,7 @@ Hello! I am a fully funded M.S. Computer Science (Thesis Track) student at the U
       Constructive Distortion: Improving MLLMs with Attention-Guided Image Warping
     </a>
   </div>
-</div>
+</div> -->
 
 
 
