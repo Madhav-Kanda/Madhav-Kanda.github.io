@@ -11,10 +11,10 @@ author_profile: true
 <article class="publication-entry">
   <h2>
     <strong>1. RefineStat: Efficient Exploration for Probabilistic Program Synthesis.</strong>
-    <a href="https://arxiv.org/pdf/2509.01082" target="_blank" rel="noopener noreferrer">🔗</a>
+    <a href="https://arxiv.org/abs/2509.01082" target="_blank" rel="noopener noreferrer">🔗</a>
   </h2>
   <p><strong>Madhav Kanda</strong>, Shubham Ugare, Sasa Misailovic.</p>
-  <p><em>Under review at ICLR 2026.</em></p>
+  <p><em>Accepted at ICLR 2026.</em></p>
 </article>
 
 <!-- 2. Constructive Distortion -->
@@ -24,7 +24,7 @@ author_profile: true
     <a href="https://dwipddalal.github.io/Attwarp/" target="_blank" rel="noopener noreferrer">🔗</a>
   </h2>
   <p>Dwip Dalal, Gautam Vashishtha, <strong>Madhav Kanda</strong>, Svetlana Lazebnik, Heng Ji, Unnat Jain.</p>
-  <p><em>Under review at ICLR 2026.</em></p>
+  <p><em>Accepted at ICLR 2026.</em></p>
 </article>
 
 <!-- 3. Divide and Reason -->
@@ -34,7 +34,7 @@ author_profile: true
     <a href="https://madhav-kanda.github.io/redi/" target="_blank" rel="noopener noreferrer">🔗</a>
   </h2>
   <p><strong>Madhav Kanda*</strong>, Dwip Dalal*, Zhenhailong Wang, Heng Ji, Unnat Jain.</p>
-  <p><em>EACL 2026.</em></p>
+  <p><em>Accepted at EACL 2026.</em></p>
 </article>
 
 <!-- 4. Grammar-Constrained LLM Generation -->
@@ -44,7 +44,7 @@ author_profile: true
     <a href="#" target="_blank" rel="noopener noreferrer">🔗</a>
   </h2>
   <p><strong>Madhav Kanda</strong>, Shubham Ugare, Sasa Misailovic.</p>
-  <p><em>Workshop on Languages for Inference (LAFI), POPL 2026.</em></p>
+  <p><em>Accepted to The Workshop on Languages for Inference (LAFI), POPL 2026.</em></p>
 </article>
 
 <!-- 5. Brick Kilns -->
@@ -54,7 +54,7 @@ author_profile: true
     <a href="https://openreview.net/pdf?id=F6jSo0PIKy" target="_blank" rel="noopener noreferrer">🔗</a>
   </h2>
   <p>Aditi Agarwal*, Suraj Jaiswal*, <strong>Madhav Kanda*</strong>, Nipun Batra.</p>
-  <p><em>NeurIPS 2023 RealML Workshop.</em></p>
+  <p><em>Accepted at NeurIPS 2023 RealML Workshop.</em></p>
 </article>
 
 <!-- 6. SpiroActive -->
