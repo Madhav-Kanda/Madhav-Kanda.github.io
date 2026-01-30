@@ -48,14 +48,15 @@ Hello! I am a fully funded M.S. Computer Science (Thesis Track) student at the U
   </div>
 
   <div style="display: inline-block; text-align: center; vertical-align: top; margin: 0 1rem; min-width: 100px;">
-    <img src="../images/microsoft.png" alt="MSR Internship" style="width: 90px; height: 90px; object-fit: contain;">
+    <img src="../images/microsoft.png" alt="Microsoft Internship" style="width: 90px; height: 90px; object-fit: contain;">
     <p>MSR, Redmond<br><em>2025</em></p>
   </div>
 
-  <div style="display: inline-block; text-align: center; vertical-align: top; margin: 0 1rem; min-width: 100px;">
+  <!--<div style="display: inline-block; text-align: center; vertical-align: top; margin: 0 1rem; min-width: 100px;">
     <img src="../images/azure.jpeg" alt="Azure Research Internship" style="width: 90px; height: 90px; object-fit: contain;">
     <p>Azure Research<br><em>2025</em></p>
   </div>
+  -->
 
 </div>
 
