@@ -173,10 +173,19 @@ Hello! I am a fully funded M.S. Computer Science (Thesis Track) student at the U
   </div>
 </div> 
 
-   <div style="display: flex; margin-bottom: 1em;">
-    <div style="flex: 0 0 100px; font-weight: bold; color: #555;">August 2025</div>
-    <div>Completed my summer internship at Microsoft. Thanks to my mentors [Alok Kumbhare](https://www.microsoft.com/en-us/research/people/alok-kumbhare/), [Pedro Las-Casas](https://www.microsoft.com/en-us/research/people/pedrobr/), [Rodrigo Fonseca](https://www.microsoft.com/en-us/research/people/rofons/), and [Sharad Agarwal](https://sharadagarwal.net/)</div>
+<div style="display: flex; margin-bottom: 1em;">
+  <div style="flex: 0 0 100px; font-weight: bold; color: #555;">
+    August 2025
   </div>
+  <div>
+    Completed my summer internship at Microsoft. Thanks to my mentors
+    <a href="https://www.microsoft.com/en-us/research/people/alok-kumbhare/">Alok Kumbhare</a>,
+    <a href="https://www.microsoft.com/en-us/research/people/pedrobr/">Pedro Las-Casas</a>,
+    <a href="https://www.microsoft.com/en-us/research/people/rofons/">Rodrigo Fonseca</a>,
+    and
+    <a href="https://sharadagarwal.net/">Sharad Agarwal</a>.
+  </div>
+</div>
   
    <div style="display: flex; margin-bottom: 1em;">
     <div style="flex: 0 0 100px; font-weight: bold; color: #555;">May 2025</div>
