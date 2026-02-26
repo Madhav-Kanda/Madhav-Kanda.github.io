@@ -102,7 +102,7 @@ Hello! I am a fully funded M.S. Computer Science (Thesis Track) student at the U
        target="_blank"
        rel="noopener noreferrer"
        style="color: #4aa3c7; text-decoration: none;">
-      RefineStat highlighted by the University of Illinois
+      University of Illinois News Notes
     </a>
   </div>
 </div>
