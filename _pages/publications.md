@@ -1,72 +1,11 @@
 ---
-layout: archive
-title: "Publications"
+layout: null
 permalink: /publications/
-author_profile: true
+title: "Publications"
 ---
-
-<section class="publications-list">
-
-<!-- 1. RefineStat -->
-<article class="publication-entry">
-  <h2>
-    <strong>1. RefineStat: Efficient Exploration for Probabilistic Program Synthesis.</strong>
-    <a href="https://arxiv.org/abs/2509.01082" target="_blank" rel="noopener noreferrer">🔗</a>
-  </h2>
-  <p><strong>Madhav Kanda</strong>, Shubham Ugare, Sasa Misailovic.</p>
-  <p><em>Accepted at ICLR 2026.</em></p>
-</article>
-
-<!-- 2. Constructive Distortion -->
-<article class="publication-entry">
-  <h2>
-    <strong>2. Constructive Distortion: Attention-Guided Image Warping for Multimodal LLMs.</strong>
-    <a href="https://dwipddalal.github.io/Attwarp/" target="_blank" rel="noopener noreferrer">🔗</a>
-  </h2>
-  <p>Dwip Dalal, Gautam Vashishtha, <strong>Madhav Kanda</strong>, Svetlana Lazebnik, Heng Ji, Unnat Jain.</p>
-  <p><em>Accepted at ICLR 2026.</em></p>
-</article>
-
-<!-- 3. Divide and Reason -->
-<article class="publication-entry">
-  <h2>
-    <strong>3. Compositional Reasoning via Joint Image and Language Decomposition.</strong>
-    <a href="https://madhav-kanda.github.io/redi/" target="_blank" rel="noopener noreferrer">🔗</a>
-  </h2>
-  <p><strong>Madhav Kanda*</strong>, Dwip Dalal*, Zhenhailong Wang, Heng Ji, Unnat Jain.</p>
-  <p><em>Accepted at EACL 2026.</em></p>
-</article>
-
-<!-- 4. Grammar-Constrained LLM Generation -->
-<article class="publication-entry">
-  <h2>
-    <strong>4. Grammar-Constrained LLM Generation for Reliable and Efficient Probabilistic Program Synthesis.</strong>
-    <a href="#" target="_blank" rel="noopener noreferrer">🔗</a>
-  </h2>
-  <p><strong>Madhav Kanda</strong>, Shubham Ugare, Sasa Misailovic.</p>
-  <p><em>Accepted to The Workshop on Languages for Inference (LAFI), POPL 2026.</em></p>
-</article>
-
-<!-- 5. Brick Kilns -->
-<article class="publication-entry">
-  <h2>
-    <strong>5. Towards Scalable Identification of Brick Kilns from Satellite Imagery with Active Learning.</strong>
-    <a href="https://openreview.net/pdf?id=F6jSo0PIKy" target="_blank" rel="noopener noreferrer">🔗</a>
-  </h2>
-  <p>Aditi Agarwal*, Suraj Jaiswal*, <strong>Madhav Kanda*</strong>, Nipun Batra.</p>
-  <p><em>Accepted at NeurIPS 2023 RealML Workshop.</em></p>
-</article>
-
-<!-- 6. SpiroActive -->
-<article class="publication-entry">
-  <h2>
-    <strong>6. SpiroActive: Active Learning for Efficient Data Acquisition for Spirometry.</strong>
-    <a href="https://arxiv.org/pdf/2410.22950" target="_blank" rel="noopener noreferrer">🔗</a>
-  </h2>
-  <p>Ankita Kumari Jain, Nitish Sharma, <strong>Madhav Kanda</strong>, Nipun Batra.</p>
-  <p><em>arXiv preprint, 2024.</em></p>
-</article>
-
-<p><em>(* denotes equal contribution)</em></p>
-
-</section>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Madhav Kanda — Publications</title><link rel="stylesheet" href="/assets/profile/style.css"><meta name="description" content="Madhav Kanda — Senior Associate, Applied Research at Capital One Science. Research in language models, probabilistic programming, and multimodal reasoning."><link rel="canonical" href="https://madhav-kanda.github.io/publications/"></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header><nav aria-label="Main navigation"><a href="/">Home</a><a href="/publications/" aria-current="page">Publications</a><a href="/experience/">Experience</a><a href="/assets/cv.pdf">CV</a></nav></header>
+<main id="main" class="content-page"><section id="publications"><h1 class="page-title">Publications</h1><ol class="publications"><li><div class="venue-label"><strong>EMNLP</strong><span>2026</span><small class="">Industry Track</small></div><div class="paper-info"><a class="paper-title" href="https://arxiv.org/abs/2602.17990">WorkflowPerturb: Calibrated Stress Tests for Evaluating Multi-Agent Workflow Metrics</a><div class="authors"><strong>Madhav Kanda</strong>, Sharad Agarwal, Rodrigo Fonseca, Alok Gautam Kumbhare, Pedro Las-Casas.</div><div class="paper-links"><a href="https://arxiv.org/abs/2602.17990">Paper ↗</a> <a href="https://huggingface.co/datasets/microsoft/WorkflowPerturb">Dataset ↗</a></div></div></li><li><div class="venue-label"><strong>ICLR</strong><span>2026</span><small class="oral-label">Oral</small></div><div class="paper-info"><a class="paper-title" href="https://arxiv.org/abs/2509.01082">RefineStat: Efficient Exploration for Probabilistic Program Synthesis</a><div class="authors"><strong>Madhav Kanda</strong>, Shubham Ugare, Sasa Misailovic.</div><div class="paper-links"><a href="https://arxiv.org/abs/2509.01082">Paper ↗</a></div></div></li><li><div class="venue-label"><strong>ICLR</strong><span>2026</span></div><div class="paper-info"><a class="paper-title" href="https://dwipddalal.github.io/Attwarp/">Constructive Distortion: Attention-Guided Image Warping for Multimodal LLMs</a><div class="authors">Dwip Dalal, Gautam Vashishtha, <strong>Madhav Kanda</strong>, Svetlana Lazebnik, Heng Ji, Unnat Jain.</div><div class="paper-links"><a href="https://dwipddalal.github.io/Attwarp/">Project ↗</a></div></div></li><li><div class="venue-label"><strong>EACL</strong><span>2026</span><small class="">Findings</small></div><div class="paper-info"><a class="paper-title" href="https://madhav-kanda.github.io/redi/">Compositional Reasoning via Joint Image and Language Decomposition</a><div class="authors"><strong>Madhav Kanda*</strong>, Dwip Dalal*, Zhenhailong Wang, Heng Ji, Unnat Jain.</div><div class="paper-links"><a href="https://madhav-kanda.github.io/redi/">Project ↗</a></div></div></li><li><div class="venue-label"><strong>POPL</strong><span>2026</span><small class="">LAFI Workshop</small></div><div class="paper-info"><a class="paper-title" href="https://popl26.sigplan.org/details/lafi-2026-papers/1/Grammar-Constrained-LLM-Generation-for-Reliable-and-Efficient-Probabilistic-Program-S">Grammar-Constrained LLM Generation for Reliable and Efficient Probabilistic Program Synthesis</a><div class="authors"><strong>Madhav Kanda</strong>, Shubham Ugare, Sasa Misailovic.</div><div class="paper-links"><a href="https://popl26.sigplan.org/details/lafi-2026-papers/1/Grammar-Constrained-LLM-Generation-for-Reliable-and-Efficient-Probabilistic-Program-S">Paper ↗</a></div></div></li><li><div class="venue-label"><strong>arXiv</strong><span>2024</span><small class="">Preprint</small></div><div class="paper-info"><a class="paper-title" href="https://arxiv.org/pdf/2410.22950">SpiroActive: Active Learning for Efficient Data Acquisition for Spirometry</a><div class="authors">Ankita Kumari Jain, Nitish Sharma, <strong>Madhav Kanda</strong>, Nipun Batra.</div><div class="paper-links"><a href="https://arxiv.org/pdf/2410.22950">Paper ↗</a></div></div></li><li><div class="venue-label"><strong>NeurIPS</strong><span>2023</span><small class="">RealML Workshop</small></div><div class="paper-info"><a class="paper-title" href="https://openreview.net/pdf?id=F6jSo0PIKy">Towards Scalable Identification of Brick Kilns from Satellite Imagery with Active Learning</a><div class="authors">Aditi Agarwal*, Suraj Jaiswal*, <strong>Madhav Kanda*</strong>, Nipun Batra.</div><div class="paper-links"><a href="https://openreview.net/pdf?id=F6jSo0PIKy">Paper ↗</a></div></div></li></ol><p class="note">* Equal contribution</p></section></main>
+<footer>Madhav Kanda · <a href="mailto:madhavkanda@gmail.com">madhavkanda@gmail.com</a></footer></body></html>

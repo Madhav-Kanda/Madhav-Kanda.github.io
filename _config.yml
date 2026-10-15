@@ -8,10 +8,10 @@
 # Site Settings
 locale                   : "en-US"
 # title                    : "Your Name / Site Title"
-title                    : "Home"
+title                    : "Madhav Kanda"
 title_separator          : "-"
 name                     : &name "Madhav Kanda"
-description              : &description "MSCS @ UIUC"
+description              : &description "Applied Research · Language Models · Machine Learning"
 # url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 url                      : https://madhav-kanda.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -92,7 +92,7 @@ author:
   employer         :  "UIUC"
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=C4XcgJ4AAAAJ&hl=en&authuser=1"
-  email            :  "madhav3@illinois.edu"
+  email            :  "madhavkanda@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -129,6 +129,7 @@ include:
   - _pages
   - files
 exclude:
+  - prototype
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
