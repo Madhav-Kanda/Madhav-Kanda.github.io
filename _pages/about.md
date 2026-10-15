@@ -93,6 +93,43 @@ Hello! I am a fully funded M.S. Computer Science (Thesis Track) student at the U
 
 <div style="display: flex; gap: 1rem; margin-bottom: 1em; align-items: baseline;">
   <div style="flex: 0 0 80px; font-weight: 600; color: #555;">
+    Aug 2026
+  </div>
+  <div style="line-height: 1.4;">
+    <strong>EMNLP 2026</strong>
+    <span style="color: #555;"> — Workflow perturbation work with Microsoft Research accepted to the Industry Track!</span>
+  </div>
+</div>
+
+<div style="display: flex; gap: 1rem; margin-bottom: 1em; align-items: baseline;">
+  <div style="flex: 0 0 80px; font-weight: 600; color: #555;">
+    May 2026
+  </div>
+  <div style="line-height: 1.4;">
+    <strong>Capital One</strong>
+    <span style="color: #555;"> — Joining the Applied Research team as a Senior Data Scientist, working on LLM inference optimization!</span>
+  </div>
+</div>
+
+<div style="display: flex; gap: 1rem; margin-bottom: 1em; align-items: baseline;">
+  <div style="flex: 0 0 80px; font-weight: 600; color: #555;">
+    Apr 2026
+  </div>
+  <div style="line-height: 1.4;">
+    <strong>ICLR 2026</strong>
+    <span style="color: #555;"> — Presented our work as an oral talk in Brazil:</span>
+    <a href="https://openreview.net/forum?id=SAl337ZX5d"
+       target="_blank"
+       rel="noopener noreferrer"
+       style="color: #4aa3c7; text-decoration: none;">
+      RefineStat: Efficient Exploration for Probabilistic Program Synthesis
+    </a>
+  </div>
+</div>
+
+
+<div style="display: flex; gap: 1rem; margin-bottom: 1em; align-items: baseline;">
+  <div style="flex: 0 0 80px; font-weight: 600; color: #555;">
     Feb 2026
   </div>
   <div style="line-height: 1.4;">
