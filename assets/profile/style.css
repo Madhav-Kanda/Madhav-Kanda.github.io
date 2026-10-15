@@ -27,3 +27,8 @@ header nav a{font-size:18px;line-height:1.5}
 .venue-label small{font-size:12px}
 .news-toggle,.news-hint,.note,footer{font-size:14px}
 @media(max-width:600px){body{font-size:18px}h1{font-size:32px}header nav{gap:20px}header nav a{font-size:16px}.paper-title{font-size:18px}.paper-info .authors,.rows p,.role-label,.reviewing p,.news-list li{font-size:16px}.rows dt,.news-date{font-size:13px}}
+
+/* Slightly larger portrait, preserving the approved crop. */
+.home .about{grid-template-columns:200px 1fr}.portrait-frame{width:200px;height:249px}
+.service-note{font-size:16px}
+@media(max-width:700px){.home .about{grid-template-columns:1fr}.portrait-frame{width:145px;height:180px}}
