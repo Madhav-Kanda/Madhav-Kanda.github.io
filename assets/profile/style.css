@@ -11,3 +11,14 @@ header{justify-content:flex-end}
 .awards li{display:grid;grid-template-columns:65px 48px 1fr;align-items:center;gap:18px;padding:13px 0;margin:0;border-bottom:1px solid #edf0f2}.awards li:last-child{border-bottom:0}.awards .award-year{position:static;width:auto;color:#666;font-size:13px}.award-logo{width:42px;height:42px;object-fit:contain}.awards .award-symbol{position:static;width:42px;text-align:center;color:#778a9a;font-size:27px}.awards li>div{font-size:14px}@media(max-width:600px){.awards li{grid-template-columns:42px 38px 1fr;gap:12px;padding:12px 0}.award-logo{width:34px;height:34px}.awards .award-symbol{width:34px}.awards li>div{font-size:13px}}
 header{padding:16px 0}header nav{display:flex;gap:5px;align-items:center;padding:4px;background:#f4f6f8;border:1px solid #e4e8ec;border-radius:8px}header nav a{display:block;padding:8px 17px;color:#4b5563;font-size:13px;font-weight:500;border-radius:5px;line-height:1.4;transition:background-color .15s,color .15s}header nav a:hover{background:#e8edf2;color:#244f70;text-decoration:none}header nav a[aria-current="page"]{background:#294f6c;color:#fff;font-weight:600;text-decoration:none}header nav a:focus-visible{outline:2px solid #1769a4;outline-offset:3px}@media(max-width:600px){header{align-items:stretch}header nav{justify-content:space-between;gap:3px}header nav a{padding:8px 10px;font-size:12px;text-align:center;flex:1}}@media(prefers-reduced-motion:reduce){header nav a{transition:none}}
 header{padding:0;min-height:65px}header nav{background:none;border:0;border-radius:0;padding:0;gap:28px;align-self:stretch}header nav a{display:flex;align-items:center;padding:20px 0 17px;border-radius:0;border-bottom:2px solid transparent;color:#60656b;font-size:13px;font-weight:500;transition:color .15s,border-color .15s}header nav a:hover{background:none;color:#244f70;text-decoration:none;border-bottom-color:#c5d1da}header nav a[aria-current="page"]{background:none;color:#244f70;font-weight:600;border-bottom-color:#244f70;text-decoration:none}@media(max-width:600px){header nav{gap:22px;justify-content:flex-start}header nav a{flex:0 0 auto;padding:17px 0 14px;font-size:12px}}
+
+/* Readable typography across profile pages. */
+body{font-size:17px;line-height:1.7}
+header nav a{font-size:15px}
+.paper-title{font-size:18px}
+.paper-info .authors,.rows p,.role-label,.reviewing p,.news-list li{font-size:15px}
+.rows dt,.news-date,.venue-label>span{font-size:14px}
+.paper-info .paper-links{font-size:14px!important}
+.venue-label small{font-size:12px}
+.news-toggle,.news-hint,.note,footer{font-size:13px}
+@media(max-width:600px){body{font-size:16px}header nav a{font-size:14px}.paper-title{font-size:17px}.paper-info .authors,.rows p,.role-label,.reviewing p,.news-list li{font-size:14px}.rows dt,.news-date{font-size:13px}}
