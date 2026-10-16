@@ -32,3 +32,10 @@ header nav a{font-size:18px;line-height:1.5}
 .home .about{grid-template-columns:200px 1fr}.portrait-frame{width:200px;height:249px}
 .service-note{font-size:16px}
 @media(max-width:700px){.home .about{grid-template-columns:1fr}.portrait-frame{width:145px;height:180px}}
+
+/* Compact conference labels for academic service. */
+.reviewer-list{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:12px 0 0}
+.reviewer-list li{display:flex;align-items:center;gap:14px;margin:0;padding:10px 16px;background:#f5f8fa;border:1px solid #dce5ec;border-left:3px solid #345b78;border-radius:4px;line-height:1.5}
+.reviewer-list strong{font-size:16px;color:#244f70;font-weight:600}
+.reviewer-list span{font-size:15px;color:#596674}
+@media(max-width:450px){.reviewer-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.reviewer-list li{justify-content:space-between;padding:9px 12px;gap:8px}}
