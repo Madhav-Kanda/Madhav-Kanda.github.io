@@ -43,3 +43,5 @@ header nav a{font-size:18px;line-height:1.5}
 /* Deeper blue accents keep the introduction consistent with the navigation. */
 .about p a,.about p strong{color:#244f70}
 .about p a:hover{color:#17364e;text-decoration:underline}
+
+.open-source-list{list-style:none;padding:0;margin:12px 0 0}.open-source-list li{padding:14px 0;border-bottom:1px solid #e5e8eb}.open-source-list li:last-child{border-bottom:0}.open-source-list p{font-size:16px;margin:5px 0;color:#555}
