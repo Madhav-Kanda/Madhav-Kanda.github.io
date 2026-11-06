@@ -48,3 +48,11 @@ header nav a{font-size:18px;line-height:1.5}
 
 .icon-links .x-icon{width:26px;height:26px;display:block;color:#999}
 .icon-links a:hover .x-icon{color:#244f70}
+
+/* A quieter background block keeps the introduction easy to scan. */
+.about-background{margin:22px 0 0;font-size:16px;line-height:1.6;color:#555}
+.about-background>div{display:grid;grid-template-columns:82px minmax(0,1fr);gap:12px;margin-bottom:12px}
+.about-background dt{font-weight:600;color:#444}
+.about-background dd{margin:0}
+.about-background a{color:#244f70}
+@media(max-width:450px){.about-background>div{grid-template-columns:1fr;gap:3px}}
